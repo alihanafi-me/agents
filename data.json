@@ -1,0 +1,128 @@
+{
+  "exponents": {
+    "light": 2,
+    "heavy": 10
+  },
+  "models": [
+    {
+      "name": "opus 5.5 max",
+      "intelligence": 58,
+      "cost_per_task": 5.98
+    },
+    {
+      "name": "sonnet 5.5 max",
+      "intelligence": 56,
+      "cost_per_task": 5.46
+    },
+    {
+      "name": "opus 5.5 high",
+      "intelligence": 54,
+      "cost_per_task": 1.82
+    },
+    {
+      "name": "fable 5.1 max",
+      "intelligence": 53,
+      "cost_per_task": 7.63
+    },
+    {
+      "name": "gpt 6 astra max",
+      "intelligence": 53,
+      "cost_per_task": 3.26
+    },
+    {
+      "name": "gemini 4 argon high",
+      "intelligence": 53,
+      "cost_per_task": 1.99
+    },
+    {
+      "name": "muse wonder max",
+      "intelligence": 52,
+      "cost_per_task": 4.52
+    },
+    {
+      "name": "gpt 6.1 sol max",
+      "intelligence": 52,
+      "cost_per_task": 0.72
+    },
+    {
+      "name": "opus 5.5 medium",
+      "intelligence": 51,
+      "cost_per_task": 1.34
+    },
+    {
+      "name": "fable 5.1 high",
+      "intelligence": 51,
+      "cost_per_task": 3.91
+    },
+    {
+      "name": "gpt 6 astra high",
+      "intelligence": 51,
+      "cost_per_task": 1.73
+    },
+    {
+      "name": "gpt 6.1 sol high",
+      "intelligence": 50,
+      "cost_per_task": 0.32
+    },
+    {
+      "name": "gpt 6 astra medium",
+      "intelligence": 50,
+      "cost_per_task": 1.54
+    },
+    {
+      "name": "fable 5.1 medium",
+      "intelligence": 49,
+      "cost_per_task": 2.98
+    },
+    {
+      "name": "gpt 6.1 sol medium",
+      "intelligence": 48,
+      "cost_per_task": 0.21
+    },
+    {
+      "name": "sonnet 5.5 high",
+      "intelligence": 47,
+      "cost_per_task": 0.88
+    },
+    {
+      "name": "grok 4.7 xhigh",
+      "intelligence": 46,
+      "cost_per_task": 3.74
+    },
+    {
+      "name": "haiku 5.5 max",
+      "intelligence": 43,
+      "cost_per_task": 0.21
+    },
+    {
+      "name": "sonnet 5.5 medium",
+      "intelligence": 41,
+      "cost_per_task": 0.48
+    },
+    {
+      "name": "gpt 6 luna max",
+      "intelligence": 38,
+      "cost_per_task": 0.07
+    },
+    {
+      "name": "haiku 5.5 high",
+      "intelligence": 38,
+      "cost_per_task": 0.08
+    },
+    {
+      "name": "haiku 5.5 medium",
+      "intelligence": 34,
+      "cost_per_task": 0.05
+    },
+    {
+      "name": "gpt 6 luna high",
+      "intelligence": 33,
+      "cost_per_task": 0.03
+    },
+    {
+      "name": "gpt 6 luna medium",
+      "intelligence": 30,
+      "cost_per_task": 0.02
+    }
+  ]
+}
