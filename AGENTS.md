@@ -5,7 +5,7 @@
 Maintain two Markdown rankings of user-selected AI models/agents in README.md:
 - Light tasks: intelligence ** light_exponent / cost_per_task (default exponent: 2).
 - Heavy tasks: intelligence ** heavy_exponent / cost_per_task / 1_000_000_000 (default exponent: 10).
-- Display the heavy-task table first. Add gold, silver, and bronze medal emojis beside ranks 1, 2, and 3 in both tables.
+- Display the heavy-task table first. Place gold, silver, and bronze medal emojis before ranks 1, 2, and 3 in the same column in both tables.
 
 ## Data and scoring
 

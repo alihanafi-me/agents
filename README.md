@@ -19,9 +19,9 @@ Current exponent: `10`
 
 | Rank | Model / Agent | Intelligence | Cost per task | Score |
 | ---: | --- | ---: | ---: | ---: |
-| 1 🥇 | gpt 6.1 sol medium | 48 | 0.21 | 309.2m |
-| 2 🥈 | gpt 6.1 sol high | 50 | 0.32 | 305.2m |
-| 3 🥉 | gpt 6.1 sol max | 52 | 0.72 | 200.8m |
+| 🥇 1 | gpt 6.1 sol medium | 48 | 0.21 | 309.2m |
+| 🥈 2 | gpt 6.1 sol high | 50 | 0.32 | 305.2m |
+| 🥉 3 | gpt 6.1 sol max | 52 | 0.72 | 200.8m |
 | 4 | opus 5.5 high | 54 | 1.82 | 115.8m |
 | 5 | haiku 5.5 max | 43 | 0.21 | 102.9m |
 | 6 | gpt 6 luna max | 38 | 0.07 | 89.7m |
@@ -50,9 +50,9 @@ Current exponent: `2`
 
 | Rank | Model / Agent | Intelligence | Cost per task | Score |
 | ---: | --- | ---: | ---: | ---: |
-| 1 🥇 | gpt 6 luna medium | 30 | 0.02 | 45k |
-| 2 🥈 | gpt 6 luna high | 33 | 0.03 | 36.3k |
-| 3 🥉 | haiku 5.5 medium | 34 | 0.05 | 23.1k |
+| 🥇 1 | gpt 6 luna medium | 30 | 0.02 | 45k |
+| 🥈 2 | gpt 6 luna high | 33 | 0.03 | 36.3k |
+| 🥉 3 | haiku 5.5 medium | 34 | 0.05 | 23.1k |
 | 4 | gpt 6 luna max | 38 | 0.07 | 20.6k |
 | 5 | haiku 5.5 high | 38 | 0.08 | 18.1k |
 | 6 | gpt 6.1 sol medium | 48 | 0.21 | 11k |

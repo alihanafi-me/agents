@@ -78,8 +78,8 @@ Cost per task must be positive. Exponents must be positive and may be fractional
                 "| ---: | --- | ---: | ---: | ---: |",
             ])
             for rank, (model, score) in enumerate(rows, 1):
-                medal = {1: " 🥇", 2: " 🥈", 3: " 🥉"}.get(rank, "")
-                lines.append(f"| {rank}{medal} | {cell(model['name'])} | {model['intelligence']} | {model['cost_per_task']} | {format_score(score)} |")
+                medal = {1: "🥇 ", 2: "🥈 ", 3: "🥉 "}.get(rank, "")
+                lines.append(f"| {medal}{rank} | {cell(model['name'])} | {model['intelligence']} | {model['cost_per_task']} | {format_score(score)} |")
         else:
             lines.extend([
                 "| Rank | Model / Agent | Intelligence | Cost per task | Score |",
