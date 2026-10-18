@@ -59,28 +59,6 @@ see its [intelligence benchmarking methodology](https://artificialanalysis.ai/me
 We manually supply the selected model names and source values in `data.json`.
 This project does not run those benchmarks or automatically refresh the inputs from the source.
 
-## How This Project Ranks Models
-
-The **Score** column and the resulting ranks are calculated by this project's own formulas, using the supplied Intelligence and Cost per task values.
-These formulas combine capability and cost into a single score to help compare value for different task priorities.
-They are project-defined metrics, not official Artificial Analysis scores or rankings.
-
-Higher Intelligence increases the score; higher Cost per task decreases it. Higher scores rank better:
-
-```text
-heavy_score = intelligence ** heavy_exponent / cost_per_task / 1_000_000_000
-light_score = intelligence ** light_exponent / cost_per_task
-```
-
-`**` means exponentiation. The default light-task exponent of 2 gives cost more influence relative to intelligence
-than the heavy-task exponent of 10, which rewards increases in intelligence much more strongly.
-Dividing the heavy-task score by one billion only changes its scale, not the ranking.
-The exponents are configurable preferences, not benchmark-derived weights.
-"Light" and "heavy" describe these scoring priorities; they are not separate task benchmarks run by this project.
-
-Intelligence and Cost per task are source inputs; Score is a calculated comparison metric, not an accuracy percentage or a prediction of performance on every task.
-Use comparable Intelligence benchmarks and consistent currency units and task definitions for Cost per task.
-Cost per task must be positive. Exponents must be positive and may be fractional.
 """]
     for kind, title in (("heavy", "Heavy Tasks"), ("light", "Light Tasks")):
         exponent = exponents[kind]
@@ -109,6 +87,29 @@ Cost per task must be positive. Exponents must be positive and may be fractional
                 "", "No data has been supplied yet.",
             ])
         sections.append("\n".join(lines))
+    sections.append("""## How This Project Ranks Models
+
+The **Score** column and the resulting ranks are calculated by this project's own formulas, using the supplied Intelligence and Cost per task values.
+These formulas combine capability and cost into a single score to help compare value for different task priorities.
+They are project-defined metrics, not official Artificial Analysis scores or rankings.
+
+Higher Intelligence increases the score; higher Cost per task decreases it. Higher scores rank better:
+
+```text
+heavy_score = intelligence ** heavy_exponent / cost_per_task / 1_000_000_000
+light_score = intelligence ** light_exponent / cost_per_task
+```
+
+`**` means exponentiation. The default light-task exponent of 2 gives cost more influence relative to intelligence
+than the heavy-task exponent of 10, which rewards increases in intelligence much more strongly.
+Dividing the heavy-task score by one billion only changes its scale, not the ranking.
+The exponents are configurable preferences, not benchmark-derived weights.
+"Light" and "heavy" describe these scoring priorities; they are not separate task benchmarks run by this project.
+
+Intelligence and Cost per task are source inputs; Score is a calculated comparison metric, not an accuracy percentage or a prediction of performance on every task.
+Use comparable Intelligence benchmarks and consistent currency units and task definitions for Cost per task.
+Cost per task must be positive. Exponents must be positive and may be fractional.
+""")
     sections.append("""## Updating the Rankings
 
 Requires Python 3.10 or later, with no external packages.
