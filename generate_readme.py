@@ -47,6 +47,8 @@ def generate(data):
 
     sections = ["""# AI Agent Rankings
 
+![Decorative abstract chart with glowing curves; no real data is represented.](assets/ai-agent-rankings.png)
+
 Compare user-selected AI models and agents for light and heavy tasks.
 
 """]
