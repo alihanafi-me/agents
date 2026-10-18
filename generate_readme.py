@@ -56,7 +56,7 @@ It benchmarks AI models and reports measures such as intelligence, speed, and co
 Its Intelligence Index combines multiple evaluations into a weighted measure of model capability;
 see its [intelligence benchmarking methodology](https://artificialanalysis.ai/methodology/intelligence-benchmarking) for the benchmark definitions and weighting.
 
-The project owner manually supplies the selected model names and source values in `data.json`.
+We manually supply the selected model names and source values in `data.json`.
 This project does not run those benchmarks or automatically refresh the inputs from the source.
 
 ## How This Project Ranks Models
