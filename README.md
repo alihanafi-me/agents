@@ -2,16 +2,6 @@
 
 Compare user-selected AI models and agents for light and heavy tasks.
 
-## Where the Numbers Come From
-
-[Artificial Analysis](https://artificialanalysis.ai/) is the source of the Intelligence and Cost per task inputs in these tables.
-It benchmarks AI models and reports measures such as intelligence, speed, and cost.
-Its Intelligence Index combines multiple evaluations into a weighted measure of model capability;
-see its [intelligence benchmarking methodology](https://artificialanalysis.ai/methodology/intelligence-benchmarking) for the benchmark definitions and weighting.
-
-We manually supply the selected model names and source values in `data.json`.
-This project does not run those benchmarks or automatically refresh the inputs from the source.
-
 ## Heavy Tasks
 
 Current exponent: `10`
@@ -73,6 +63,16 @@ Current exponent: `2`
 | 22 | grok 4.7 xhigh | 46 | 3.74 | 566 |
 | 23 | opus 5.5 max | 58 | 5.98 | 563 |
 | 24 | fable 5.1 max | 53 | 7.63 | 368 |
+
+## Where the Numbers Come From
+
+[Artificial Analysis](https://artificialanalysis.ai/) is the source of the Intelligence and Cost per task inputs in these tables.
+It benchmarks AI models and reports measures such as intelligence, speed, and cost.
+Its Intelligence Index combines multiple evaluations into a weighted measure of model capability;
+see its [intelligence benchmarking methodology](https://artificialanalysis.ai/methodology/intelligence-benchmarking) for the benchmark definitions and weighting.
+
+We manually supply the selected model names and source values in `data.json`.
+This project does not run those benchmarks or automatically refresh the inputs from the source.
 
 ## How This Project Ranks Models
 

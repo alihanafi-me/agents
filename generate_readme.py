@@ -49,16 +49,6 @@ def generate(data):
 
 Compare user-selected AI models and agents for light and heavy tasks.
 
-## Where the Numbers Come From
-
-[Artificial Analysis](https://artificialanalysis.ai/) is the source of the Intelligence and Cost per task inputs in these tables.
-It benchmarks AI models and reports measures such as intelligence, speed, and cost.
-Its Intelligence Index combines multiple evaluations into a weighted measure of model capability;
-see its [intelligence benchmarking methodology](https://artificialanalysis.ai/methodology/intelligence-benchmarking) for the benchmark definitions and weighting.
-
-We manually supply the selected model names and source values in `data.json`.
-This project does not run those benchmarks or automatically refresh the inputs from the source.
-
 """]
     for kind, title in (("heavy", "Heavy Tasks"), ("light", "Light Tasks")):
         exponent = exponents[kind]
@@ -87,6 +77,16 @@ This project does not run those benchmarks or automatically refresh the inputs f
                 "", "No data has been supplied yet.",
             ])
         sections.append("\n".join(lines))
+    sections.append("""## Where the Numbers Come From
+
+[Artificial Analysis](https://artificialanalysis.ai/) is the source of the Intelligence and Cost per task inputs in these tables.
+It benchmarks AI models and reports measures such as intelligence, speed, and cost.
+Its Intelligence Index combines multiple evaluations into a weighted measure of model capability;
+see its [intelligence benchmarking methodology](https://artificialanalysis.ai/methodology/intelligence-benchmarking) for the benchmark definitions and weighting.
+
+We manually supply the selected model names and source values in `data.json`.
+This project does not run those benchmarks or automatically refresh the inputs from the source.
+""")
     sections.append("""## How This Project Ranks Models
 
 The **Score** column and the resulting ranks are calculated by this project's own formulas, using the supplied Intelligence and Cost per task values.
