@@ -5,6 +5,11 @@
   },
   "models": [
     {
+      "name": "kimi k3.1 pro",
+      "intelligence": 55,
+      "cost_per_task": 2.11
+    },
+    {
       "name": "opus 5.5 max",
       "intelligence": 58,
       "cost_per_task": 5.98

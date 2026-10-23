@@ -13,27 +13,28 @@ Current exponent: `10`
 | 🥇 1 | gpt 6.1 sol medium | 48 | 0.21 | 309.2m |
 | 🥈 2 | gpt 6.1 sol high | 50 | 0.32 | 305.2m |
 | 🥉 3 | gpt 6.1 sol max | 52 | 0.72 | 200.8m |
-| 4 | opus 5.5 high | 54 | 1.82 | 115.8m |
-| 5 | haiku 5.5 max | 43 | 0.21 | 102.9m |
-| 6 | gpt 6 luna max | 38 | 0.07 | 89.7m |
-| 7 | opus 5.5 medium | 51 | 1.34 | 88.8m |
-| 8 | gemini 4 argon high | 53 | 1.99 | 87.9m |
-| 9 | haiku 5.5 high | 38 | 0.08 | 78.5m |
-| 10 | opus 5.5 max | 58 | 5.98 | 72m |
-| 11 | gpt 6 astra high | 51 | 1.73 | 68.8m |
-| 12 | gpt 6 astra medium | 50 | 1.54 | 63.4m |
-| 13 | sonnet 5.5 high | 47 | 0.88 | 59.8m |
-| 14 | sonnet 5.5 max | 56 | 5.46 | 55.6m |
-| 15 | gpt 6 astra max | 53 | 3.26 | 53.6m |
-| 16 | gpt 6 luna high | 33 | 0.03 | 51.1m |
-| 17 | haiku 5.5 medium | 34 | 0.05 | 41.3m |
-| 18 | muse wonder max | 52 | 4.52 | 32m |
-| 19 | fable 5.1 high | 51 | 3.91 | 30.4m |
-| 20 | gpt 6 luna medium | 30 | 0.02 | 29.5m |
-| 21 | sonnet 5.5 medium | 41 | 0.48 | 28m |
-| 22 | fable 5.1 medium | 49 | 2.98 | 26.8m |
-| 23 | fable 5.1 max | 53 | 7.63 | 22.9m |
-| 24 | grok 4.7 xhigh | 46 | 3.74 | 11.3m |
+| 4 | kimi k3.1 pro | 55 | 2.11 | 120m |
+| 5 | opus 5.5 high | 54 | 1.82 | 115.8m |
+| 6 | haiku 5.5 max | 43 | 0.21 | 102.9m |
+| 7 | gpt 6 luna max | 38 | 0.07 | 89.7m |
+| 8 | opus 5.5 medium | 51 | 1.34 | 88.8m |
+| 9 | gemini 4 argon high | 53 | 1.99 | 87.9m |
+| 10 | haiku 5.5 high | 38 | 0.08 | 78.5m |
+| 11 | opus 5.5 max | 58 | 5.98 | 72m |
+| 12 | gpt 6 astra high | 51 | 1.73 | 68.8m |
+| 13 | gpt 6 astra medium | 50 | 1.54 | 63.4m |
+| 14 | sonnet 5.5 high | 47 | 0.88 | 59.8m |
+| 15 | sonnet 5.5 max | 56 | 5.46 | 55.6m |
+| 16 | gpt 6 astra max | 53 | 3.26 | 53.6m |
+| 17 | gpt 6 luna high | 33 | 0.03 | 51.1m |
+| 18 | haiku 5.5 medium | 34 | 0.05 | 41.3m |
+| 19 | muse wonder max | 52 | 4.52 | 32m |
+| 20 | fable 5.1 high | 51 | 3.91 | 30.4m |
+| 21 | gpt 6 luna medium | 30 | 0.02 | 29.5m |
+| 22 | sonnet 5.5 medium | 41 | 0.48 | 28m |
+| 23 | fable 5.1 medium | 49 | 2.98 | 26.8m |
+| 24 | fable 5.1 max | 53 | 7.63 | 22.9m |
+| 25 | grok 4.7 xhigh | 46 | 3.74 | 11.3m |
 
 ## Light Tasks
 
@@ -56,15 +57,16 @@ Current exponent: `2`
 | 13 | gpt 6 astra medium | 50 | 1.54 | 1.6k |
 | 14 | opus 5.5 high | 54 | 1.82 | 1.6k |
 | 15 | gpt 6 astra high | 51 | 1.73 | 1.5k |
-| 16 | gemini 4 argon high | 53 | 1.99 | 1.4k |
-| 17 | gpt 6 astra max | 53 | 3.26 | 862 |
-| 18 | fable 5.1 medium | 49 | 2.98 | 806 |
-| 19 | fable 5.1 high | 51 | 3.91 | 665 |
-| 20 | muse wonder max | 52 | 4.52 | 598 |
-| 21 | sonnet 5.5 max | 56 | 5.46 | 574 |
-| 22 | grok 4.7 xhigh | 46 | 3.74 | 566 |
-| 23 | opus 5.5 max | 58 | 5.98 | 563 |
-| 24 | fable 5.1 max | 53 | 7.63 | 368 |
+| 16 | kimi k3.1 pro | 55 | 2.11 | 1.4k |
+| 17 | gemini 4 argon high | 53 | 1.99 | 1.4k |
+| 18 | gpt 6 astra max | 53 | 3.26 | 862 |
+| 19 | fable 5.1 medium | 49 | 2.98 | 806 |
+| 20 | fable 5.1 high | 51 | 3.91 | 665 |
+| 21 | muse wonder max | 52 | 4.52 | 598 |
+| 22 | sonnet 5.5 max | 56 | 5.46 | 574 |
+| 23 | grok 4.7 xhigh | 46 | 3.74 | 566 |
+| 24 | opus 5.5 max | 58 | 5.98 | 563 |
+| 25 | fable 5.1 max | 53 | 7.63 | 368 |
 
 ## Where the Numbers Come From
 
