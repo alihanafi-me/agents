@@ -28,7 +28,7 @@ Current exponent: `10`
 | 16 | gpt 6 astra max | 53 | 3.26 | 53.6m |
 | 17 | gpt 6 luna high | 33 | 0.03 | 51.1m |
 | 18 | haiku 5.5 medium | 34 | 0.05 | 41.3m |
-| 19 | muse wonder max | 52 | 4.52 | 32m |
+| 19 | muse wonder max | 52 | 4.54 | 31.8m |
 | 20 | fable 5.1 high | 51 | 3.91 | 30.4m |
 | 21 | gpt 6 luna medium | 30 | 0.02 | 29.5m |
 | 22 | sonnet 5.5 medium | 41 | 0.48 | 28m |
@@ -62,7 +62,7 @@ Current exponent: `2`
 | 18 | gpt 6 astra max | 53 | 3.26 | 862 |
 | 19 | fable 5.1 medium | 49 | 2.98 | 806 |
 | 20 | fable 5.1 high | 51 | 3.91 | 665 |
-| 21 | muse wonder max | 52 | 4.52 | 598 |
+| 21 | muse wonder max | 52 | 4.54 | 596 |
 | 22 | sonnet 5.5 max | 56 | 5.46 | 574 |
 | 23 | grok 4.7 xhigh | 46 | 3.74 | 566 |
 | 24 | opus 5.5 max | 58 | 5.98 | 563 |
