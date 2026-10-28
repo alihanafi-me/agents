@@ -98,7 +98,7 @@ Cost per task is the weighted average cost of running one Intelligence Index tas
 When the index changes its evaluations or weights, both Intelligence and Cost per task can change even if API token prices stay the same.
 Compare models within the same index version; scores from different versions are not directly comparable.
 
-We manually supply the selected model names and source values in `data.json`.
+The selected model variants and their verified Artificial Analysis values are stored in `data.json`.
 Model names are shortened for readability. Reasoning settings such as `medium`, `high`, `xhigh`, and `max` identify separate variants;
 the Claude Opus 5.5, Sonnet 5.5, and Fable 5.1 entries use the source's default fallback configuration.
 This project does not run those benchmarks or automatically refresh the inputs from the source.
