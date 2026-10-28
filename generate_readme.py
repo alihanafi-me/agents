@@ -45,6 +45,15 @@ def generate(data):
         number(model["intelligence"], f"{name}.intelligence", allow_zero=True)
         number(model["cost_per_task"], f"{name}.cost_per_task")
 
+    intelligence_medals = dict(zip(
+        sorted({model["intelligence"] for model in models}, reverse=True)[:3],
+        ("🥇 ", "🥈 ", "🥉 "),
+    ))
+    cost_medals = dict(zip(
+        sorted({model["cost_per_task"] for model in models})[:3],
+        ("🥇 ", "🥈 ", "🥉 "),
+    ))
+
     source = data.get("source")
     snapshot_note = (
         f"Data snapshot: Artificial Analysis Intelligence Index **v{cell(source['intelligence_index_version'])}**, "
@@ -78,7 +87,9 @@ Compare user-selected AI models and agents for light and heavy tasks.
             ])
             for rank, (model, score) in enumerate(rows, 1):
                 medal = {1: "🥇 ", 2: "🥈 ", 3: "🥉 "}.get(rank, "")
-                lines.append(f"| {medal}{rank} | {cell(model['name'])} | {model['intelligence']} | {model['cost_per_task']} | {format_score(score)} |")
+                intelligence = f"{intelligence_medals.get(model['intelligence'], '')}{model['intelligence']}"
+                cost = f"{cost_medals.get(model['cost_per_task'], '')}{model['cost_per_task']}"
+                lines.append(f"| {medal}{rank} | {cell(model['name'])} | {intelligence} | {cost} | {format_score(score)} |")
         else:
             lines.extend([
                 "| Rank | Model / Agent | Intelligence | Cost per task | Score |",
@@ -115,6 +126,9 @@ Higher Intelligence increases the score; higher Cost per task decreases it. High
 heavy_score = intelligence ** heavy_exponent / cost_per_task / 1_000_000_000
 light_score = intelligence ** light_exponent / cost_per_task
 ```
+
+Medals in the Intelligence column mark the three highest distinct values; medals in Cost per task mark the three lowest distinct values.
+Equal values share a medal. These column medals are independent of the overall Rank.
 
 `**` means exponentiation. The default light-task exponent of 2 gives cost more influence relative to intelligence
 than the heavy-task exponent of 10, which rewards increases in intelligence much more strongly.

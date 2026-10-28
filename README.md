@@ -10,15 +10,15 @@ Current exponent: `10`
 
 | Rank | Model / Agent | Intelligence | Cost per task | Score |
 | ---: | --- | ---: | ---: | ---: |
-| 🥇 1 | gpt 6.1 sol max | 55 | 1.27 | 199.4m |
+| 🥇 1 | gpt 6.1 sol max | 🥉 55 | 1.27 | 199.4m |
 | 🥈 2 | gpt 6.1 sol high | 50 | 0.59 | 165.5m |
 | 🥉 3 | gpt 6.1 terra max | 51 | 0.96 | 124m |
 | 4 | gpt 6.1 sol medium | 46 | 0.36 | 117.8m |
-| 5 | gpt 6 astra high | 55 | 3.24 | 78.2m |
+| 5 | gpt 6 astra high | 🥉 55 | 3.24 | 78.2m |
 | 6 | gpt 6.1 terra high | 42 | 0.26 | 65.7m |
-| 7 | gpt 6 astra max | 57 | 6.24 | 58m |
+| 7 | gpt 6 astra max | 🥈 57 | 6.24 | 58m |
 | 8 | gpt 6 astra medium | 51 | 2.73 | 43.6m |
-| 9 | opus 5.5 max | 58 | 10.04 | 42.9m |
+| 9 | opus 5.5 max | 🥇 58 | 10.04 | 42.9m |
 | 10 | opus 5.5 high | 52 | 3.46 | 41.8m |
 | 11 | gpt 6.1 terra medium | 38 | 0.17 | 36.9m |
 | 12 | opus 5.5 medium | 48 | 2.45 | 26.5m |
@@ -33,11 +33,11 @@ Current exponent: `10`
 | 21 | haiku 5.5 high | 30 | 0.16 | 3.7m |
 | 22 | muse wonder max | 43 | 6.95 | 3.1m |
 | 23 | gpt 6 luna max | 28 | 0.15 | 2m |
-| 24 | haiku 5.5 medium | 25 | 0.09 | 1.1m |
+| 24 | haiku 5.5 medium | 25 | 🥉 0.09 | 1.1m |
 | 25 | sonnet 5.5 medium | 30 | 0.78 | 757k |
 | 26 | grok 4.7 xhigh | 34 | 7.51 | 274.9k |
-| 27 | gpt 6 luna high | 21 | 0.07 | 238.3k |
-| 28 | gpt 6 luna medium | 18 | 0.04 | 89.3k |
+| 27 | gpt 6 luna high | 21 | 🥈 0.07 | 238.3k |
+| 28 | gpt 6 luna medium | 18 | 🥇 0.04 | 89.3k |
 
 ## Light Tasks
 
@@ -46,27 +46,27 @@ Current exponent: `2`
 | Rank | Model / Agent | Intelligence | Cost per task | Score |
 | ---: | --- | ---: | ---: | ---: |
 | 🥇 1 | gpt 6.1 terra medium | 38 | 0.17 | 8.5k |
-| 🥈 2 | gpt 6 luna medium | 18 | 0.04 | 8.1k |
-| 🥉 3 | haiku 5.5 medium | 25 | 0.09 | 6.9k |
+| 🥈 2 | gpt 6 luna medium | 18 | 🥇 0.04 | 8.1k |
+| 🥉 3 | haiku 5.5 medium | 25 | 🥉 0.09 | 6.9k |
 | 4 | gpt 6.1 terra high | 42 | 0.26 | 6.8k |
-| 5 | gpt 6 luna high | 21 | 0.07 | 6.3k |
+| 5 | gpt 6 luna high | 21 | 🥈 0.07 | 6.3k |
 | 6 | gpt 6.1 sol medium | 46 | 0.36 | 5.9k |
 | 7 | haiku 5.5 high | 30 | 0.16 | 5.6k |
 | 8 | gpt 6 luna max | 28 | 0.15 | 5.2k |
 | 9 | gpt 6.1 sol high | 50 | 0.59 | 4.2k |
 | 10 | haiku 5.5 max | 36 | 0.41 | 3.2k |
 | 11 | gpt 6.1 terra max | 51 | 0.96 | 2.7k |
-| 12 | gpt 6.1 sol max | 55 | 1.27 | 2.4k |
+| 12 | gpt 6.1 sol max | 🥉 55 | 1.27 | 2.4k |
 | 13 | sonnet 5.5 medium | 30 | 0.78 | 1.2k |
 | 14 | sonnet 5.5 high | 41 | 1.64 | 1k |
 | 15 | gpt 6 astra medium | 51 | 2.73 | 953 |
 | 16 | opus 5.5 medium | 48 | 2.45 | 940 |
-| 17 | gpt 6 astra high | 55 | 3.24 | 934 |
+| 17 | gpt 6 astra high | 🥉 55 | 3.24 | 934 |
 | 18 | opus 5.5 high | 52 | 3.46 | 782 |
 | 19 | gemini 4 argon high | 50 | 3.84 | 651 |
 | 20 | kimi k3.1 pro | 46 | 3.68 | 575 |
-| 21 | gpt 6 astra max | 57 | 6.24 | 521 |
-| 22 | opus 5.5 max | 58 | 10.04 | 335 |
+| 21 | gpt 6 astra max | 🥈 57 | 6.24 | 521 |
+| 22 | opus 5.5 max | 🥇 58 | 10.04 | 335 |
 | 23 | fable 5.1 medium | 43 | 5.58 | 331 |
 | 24 | fable 5.1 high | 47 | 7.56 | 292 |
 | 25 | sonnet 5.5 max | 54 | 10.02 | 291 |
@@ -105,6 +105,9 @@ Higher Intelligence increases the score; higher Cost per task decreases it. High
 heavy_score = intelligence ** heavy_exponent / cost_per_task / 1_000_000_000
 light_score = intelligence ** light_exponent / cost_per_task
 ```
+
+Medals in the Intelligence column mark the three highest distinct values; medals in Cost per task mark the three lowest distinct values.
+Equal values share a medal. These column medals are independent of the overall Rank.
 
 `**` means exponentiation. The default light-task exponent of 2 gives cost more influence relative to intelligence
 than the heavy-task exponent of 10, which rewards increases in intelligence much more strongly.
