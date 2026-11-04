@@ -17,25 +17,25 @@ Current exponent: `10`
 | 5 | gpt 6 astra high | 🥉 55 | 3.24 | 78.2m |
 | 6 | gpt 6.1 terra high | 42 | 0.26 | 65.7m |
 | 7 | gpt 6 astra max | 🥈 57 | 6.24 | 58m |
-| 8 | gpt 6 astra medium | 51 | 2.73 | 43.6m |
-| 9 | opus 5.5 max | 🥇 58 | 10.04 | 42.9m |
+| 8 | gpt 6 astra medium | 52 | 2.73 | 53m |
+| 9 | opus 5.5 max | 🥇 59 | 10.04 | 50.9m |
 | 10 | opus 5.5 high | 52 | 3.46 | 41.8m |
 | 11 | gpt 6.1 terra medium | 38 | 0.17 | 36.9m |
 | 12 | opus 5.5 medium | 48 | 2.45 | 26.5m |
-| 13 | gemini 4 argon high | 50 | 3.84 | 25.4m |
-| 14 | sonnet 5.5 max | 54 | 10.02 | 21m |
+| 13 | sonnet 5.5 max | 🥉 55 | 10.02 | 25.3m |
+| 14 | gemini 4 argon high | 50 | 7.68 | 12.7m |
 | 15 | kimi k3.1 pro | 46 | 3.68 | 11.5m |
-| 16 | haiku 5.5 max | 36 | 0.41 | 8.9m |
-| 17 | sonnet 5.5 high | 41 | 1.64 | 8.2m |
-| 18 | fable 5.1 high | 47 | 7.56 | 7m |
-| 19 | fable 5.1 max | 49 | 13.04 | 6.1m |
-| 20 | fable 5.1 medium | 43 | 5.58 | 3.9m |
-| 21 | haiku 5.5 high | 30 | 0.16 | 3.7m |
-| 22 | muse wonder max | 43 | 6.95 | 3.1m |
+| 16 | sonnet 5.5 high | 42 | 1.64 | 10.4m |
+| 17 | haiku 5.5 max | 36 | 0.41 | 8.9m |
+| 18 | fable 5.1 high | 47 | 7.54 | 7m |
+| 19 | fable 5.1 max | 49 | 12.99 | 6.1m |
+| 20 | muse wonder max | 44 | 6.95 | 3.9m |
+| 21 | fable 5.1 medium | 43 | 5.56 | 3.9m |
+| 22 | haiku 5.5 high | 30 | 0.16 | 3.7m |
 | 23 | gpt 6 luna max | 28 | 0.15 | 2m |
 | 24 | haiku 5.5 medium | 25 | 🥉 0.09 | 1.1m |
-| 25 | sonnet 5.5 medium | 30 | 0.78 | 757k |
-| 26 | grok 4.7 xhigh | 34 | 7.51 | 274.9k |
+| 25 | sonnet 5.5 medium | 31 | 0.78 | 1.1m |
+| 26 | grok 4.7 xhigh | 35 | 7.77 | 355k |
 | 27 | gpt 6 luna high | 21 | 🥈 0.07 | 238.3k |
 | 28 | gpt 6 luna medium | 18 | 🥇 0.04 | 89.3k |
 
@@ -57,22 +57,22 @@ Current exponent: `2`
 | 10 | haiku 5.5 max | 36 | 0.41 | 3.2k |
 | 11 | gpt 6.1 terra max | 51 | 0.96 | 2.7k |
 | 12 | gpt 6.1 sol max | 🥉 55 | 1.27 | 2.4k |
-| 13 | sonnet 5.5 medium | 30 | 0.78 | 1.2k |
-| 14 | sonnet 5.5 high | 41 | 1.64 | 1k |
-| 15 | gpt 6 astra medium | 51 | 2.73 | 953 |
+| 13 | sonnet 5.5 medium | 31 | 0.78 | 1.2k |
+| 14 | sonnet 5.5 high | 42 | 1.64 | 1.1k |
+| 15 | gpt 6 astra medium | 52 | 2.73 | 990 |
 | 16 | opus 5.5 medium | 48 | 2.45 | 940 |
 | 17 | gpt 6 astra high | 🥉 55 | 3.24 | 934 |
 | 18 | opus 5.5 high | 52 | 3.46 | 782 |
-| 19 | gemini 4 argon high | 50 | 3.84 | 651 |
-| 20 | kimi k3.1 pro | 46 | 3.68 | 575 |
-| 21 | gpt 6 astra max | 🥈 57 | 6.24 | 521 |
-| 22 | opus 5.5 max | 🥇 58 | 10.04 | 335 |
-| 23 | fable 5.1 medium | 43 | 5.58 | 331 |
-| 24 | fable 5.1 high | 47 | 7.56 | 292 |
-| 25 | sonnet 5.5 max | 54 | 10.02 | 291 |
-| 26 | muse wonder max | 43 | 6.95 | 266 |
-| 27 | fable 5.1 max | 49 | 13.04 | 184 |
-| 28 | grok 4.7 xhigh | 34 | 7.51 | 154 |
+| 19 | kimi k3.1 pro | 46 | 3.68 | 575 |
+| 20 | gpt 6 astra max | 🥈 57 | 6.24 | 521 |
+| 21 | opus 5.5 max | 🥇 59 | 10.04 | 347 |
+| 22 | fable 5.1 medium | 43 | 5.56 | 333 |
+| 23 | gemini 4 argon high | 50 | 7.68 | 326 |
+| 24 | sonnet 5.5 max | 🥉 55 | 10.02 | 302 |
+| 25 | fable 5.1 high | 47 | 7.54 | 293 |
+| 26 | muse wonder max | 44 | 6.95 | 279 |
+| 27 | fable 5.1 max | 49 | 12.99 | 185 |
+| 28 | grok 4.7 xhigh | 35 | 7.77 | 158 |
 
 ## Where the Numbers Come From
 
@@ -81,7 +81,7 @@ It benchmarks AI models and reports measures such as intelligence, speed, and co
 Its Intelligence Index combines multiple evaluations into a weighted measure of model capability;
 see its [intelligence benchmarking methodology](https://artificialanalysis.ai/methodology/intelligence-benchmarking) for the benchmark definitions and weighting.
 
-Data snapshot: Artificial Analysis Intelligence Index **v5.0**, verified on **2026-10-28**.
+Data snapshot: Artificial Analysis Intelligence Index **v5.0.1**, verified on **2026-11-04**.
 
 Intelligence is recorded at the source's displayed precision (a whole number), and Cost per task is recorded in **USD**, rounded to two decimal places.
 Cost per task is the weighted average cost of running one Intelligence Index task, not a price per million tokens or a quote for your own workload.

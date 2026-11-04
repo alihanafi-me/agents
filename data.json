@@ -1,7 +1,7 @@
 {
   "source": {
-    "intelligence_index_version": "5.0",
-    "verified_on": "2026-10-28"
+    "intelligence_index_version": "5.0.1",
+    "verified_on": "2026-11-04"
   },
   "exponents": {
     "light": 2,
@@ -15,12 +15,12 @@
     },
     {
       "name": "opus 5.5 max",
-      "intelligence": 58,
+      "intelligence": 59,
       "cost_per_task": 10.04
     },
     {
       "name": "sonnet 5.5 max",
-      "intelligence": 54,
+      "intelligence": 55,
       "cost_per_task": 10.02
     },
     {
@@ -31,7 +31,7 @@
     {
       "name": "fable 5.1 max",
       "intelligence": 49,
-      "cost_per_task": 13.04
+      "cost_per_task": 12.99
     },
     {
       "name": "gpt 6 astra max",
@@ -41,11 +41,11 @@
     {
       "name": "gemini 4 argon high",
       "intelligence": 50,
-      "cost_per_task": 3.84
+      "cost_per_task": 7.68
     },
     {
       "name": "muse wonder max",
-      "intelligence": 43,
+      "intelligence": 44,
       "cost_per_task": 6.95
     },
     {
@@ -61,7 +61,7 @@
     {
       "name": "fable 5.1 high",
       "intelligence": 47,
-      "cost_per_task": 7.56
+      "cost_per_task": 7.54
     },
     {
       "name": "gpt 6 astra high",
@@ -75,13 +75,13 @@
     },
     {
       "name": "gpt 6 astra medium",
-      "intelligence": 51,
+      "intelligence": 52,
       "cost_per_task": 2.73
     },
     {
       "name": "fable 5.1 medium",
       "intelligence": 43,
-      "cost_per_task": 5.58
+      "cost_per_task": 5.56
     },
     {
       "name": "gpt 6.1 sol medium",
@@ -90,13 +90,13 @@
     },
     {
       "name": "sonnet 5.5 high",
-      "intelligence": 41,
+      "intelligence": 42,
       "cost_per_task": 1.64
     },
     {
       "name": "grok 4.7 xhigh",
-      "intelligence": 34,
-      "cost_per_task": 7.51
+      "intelligence": 35,
+      "cost_per_task": 7.77
     },
     {
       "name": "haiku 5.5 max",
@@ -105,7 +105,7 @@
     },
     {
       "name": "sonnet 5.5 medium",
-      "intelligence": 30,
+      "intelligence": 31,
       "cost_per_task": 0.78
     },
     {
