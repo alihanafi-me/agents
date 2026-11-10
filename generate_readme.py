@@ -111,7 +111,7 @@ Compare models within the same index version; scores from different versions are
 
 The selected model variants and their verified Artificial Analysis values are stored in `data.json`.
 Model names are shortened for readability. Reasoning settings such as `medium`, `high`, `xhigh`, and `max` identify separate variants;
-the Claude Opus 5.5, Sonnet 5.5, and Fable 5.1 entries use the source's default fallback configuration.
+the Claude Opus 5.5, Sonnet 5.5, Fable 5.1, and Fable 5.2 entries use the source's default fallback configuration.
 This project does not run those benchmarks or automatically refresh the inputs from the source.
 """)
     sections.append("""## How This Project Ranks Models

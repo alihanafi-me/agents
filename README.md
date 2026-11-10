@@ -10,34 +10,37 @@ Current exponent: `10`
 
 | Rank | Model / Agent | Intelligence | Cost per task | Score |
 | ---: | --- | ---: | ---: | ---: |
-| 🥇 1 | gpt 6.1 sol max | 🥉 55 | 1.27 | 199.4m |
+| 🥇 1 | gpt 6.1 sol max | 55 | 1.27 | 199.4m |
 | 🥈 2 | gpt 6.1 sol high | 50 | 0.59 | 165.5m |
 | 🥉 3 | gpt 6.1 terra max | 51 | 0.96 | 124m |
 | 4 | gpt 6.1 sol medium | 46 | 0.36 | 117.8m |
-| 5 | gpt 6 astra high | 🥉 55 | 3.24 | 78.2m |
-| 6 | gpt 6.1 terra high | 42 | 0.26 | 65.7m |
-| 7 | gpt 6 astra max | 🥈 57 | 6.24 | 58m |
-| 8 | gpt 6 astra medium | 52 | 2.73 | 53m |
-| 9 | opus 5.5 max | 🥇 59 | 10.04 | 50.9m |
-| 10 | opus 5.5 high | 52 | 3.46 | 41.8m |
-| 11 | gpt 6.1 terra medium | 38 | 0.17 | 36.9m |
-| 12 | opus 5.5 medium | 48 | 2.45 | 26.5m |
-| 13 | sonnet 5.5 max | 🥉 55 | 10.02 | 25.3m |
-| 14 | gemini 4 argon high | 50 | 7.68 | 12.7m |
-| 15 | kimi k3.1 pro | 46 | 3.68 | 11.5m |
-| 16 | sonnet 5.5 high | 42 | 1.64 | 10.4m |
-| 17 | haiku 5.5 max | 36 | 0.41 | 8.9m |
-| 18 | fable 5.1 high | 47 | 7.54 | 7m |
-| 19 | fable 5.1 max | 49 | 12.99 | 6.1m |
-| 20 | muse wonder max | 44 | 6.95 | 3.9m |
-| 21 | fable 5.1 medium | 43 | 5.56 | 3.9m |
-| 22 | haiku 5.5 high | 30 | 0.16 | 3.7m |
-| 23 | gpt 6 luna max | 28 | 0.15 | 2m |
-| 24 | haiku 5.5 medium | 25 | 🥉 0.09 | 1.1m |
-| 25 | sonnet 5.5 medium | 31 | 0.78 | 1.1m |
-| 26 | grok 4.7 xhigh | 35 | 7.77 | 355k |
-| 27 | gpt 6 luna high | 21 | 🥈 0.07 | 238.3k |
-| 28 | gpt 6 luna medium | 18 | 🥇 0.04 | 89.3k |
+| 5 | fable 5.2 high | 🥈 62 | 9.08 | 92.4m |
+| 6 | fable 5.2 medium | 56 | 3.8 | 79.8m |
+| 7 | gpt 6 astra high | 55 | 3.24 | 78.2m |
+| 8 | gpt 6.1 terra high | 42 | 0.26 | 65.7m |
+| 9 | gpt 6 astra max | 57 | 6.24 | 58m |
+| 10 | gpt 6 astra medium | 52 | 2.73 | 53m |
+| 11 | opus 5.5 max | 🥉 59 | 10.04 | 50.9m |
+| 12 | fable 5.2 max | 🥇 65 | 26.54 | 50.7m |
+| 13 | opus 5.5 high | 52 | 3.46 | 41.8m |
+| 14 | gpt 6.1 terra medium | 38 | 0.17 | 36.9m |
+| 15 | opus 5.5 medium | 48 | 2.45 | 26.5m |
+| 16 | sonnet 5.5 max | 55 | 10.02 | 25.3m |
+| 17 | kimi k3.1 pro | 46 | 3.68 | 11.5m |
+| 18 | sonnet 5.5 high | 42 | 1.64 | 10.4m |
+| 19 | gemini 4 argon high | 50 | 9.95 | 9.8m |
+| 20 | haiku 5.5 max | 36 | 0.41 | 8.9m |
+| 21 | fable 5.1 high | 47 | 7.54 | 7m |
+| 22 | fable 5.1 max | 49 | 12.99 | 6.1m |
+| 23 | muse wonder max | 44 | 6.95 | 3.9m |
+| 24 | fable 5.1 medium | 43 | 5.56 | 3.9m |
+| 25 | haiku 5.5 high | 30 | 0.16 | 3.7m |
+| 26 | gpt 6 luna max | 28 | 0.15 | 2m |
+| 27 | haiku 5.5 medium | 25 | 🥉 0.09 | 1.1m |
+| 28 | sonnet 5.5 medium | 31 | 0.78 | 1.1m |
+| 29 | grok 4.7 xhigh | 35 | 7.77 | 355k |
+| 30 | gpt 6 luna high | 21 | 🥈 0.07 | 238.3k |
+| 31 | gpt 6 luna medium | 18 | 🥇 0.04 | 89.3k |
 
 ## Light Tasks
 
@@ -56,23 +59,26 @@ Current exponent: `2`
 | 9 | gpt 6.1 sol high | 50 | 0.59 | 4.2k |
 | 10 | haiku 5.5 max | 36 | 0.41 | 3.2k |
 | 11 | gpt 6.1 terra max | 51 | 0.96 | 2.7k |
-| 12 | gpt 6.1 sol max | 🥉 55 | 1.27 | 2.4k |
+| 12 | gpt 6.1 sol max | 55 | 1.27 | 2.4k |
 | 13 | sonnet 5.5 medium | 31 | 0.78 | 1.2k |
 | 14 | sonnet 5.5 high | 42 | 1.64 | 1.1k |
 | 15 | gpt 6 astra medium | 52 | 2.73 | 990 |
 | 16 | opus 5.5 medium | 48 | 2.45 | 940 |
-| 17 | gpt 6 astra high | 🥉 55 | 3.24 | 934 |
-| 18 | opus 5.5 high | 52 | 3.46 | 782 |
-| 19 | kimi k3.1 pro | 46 | 3.68 | 575 |
-| 20 | gpt 6 astra max | 🥈 57 | 6.24 | 521 |
-| 21 | opus 5.5 max | 🥇 59 | 10.04 | 347 |
-| 22 | fable 5.1 medium | 43 | 5.56 | 333 |
-| 23 | gemini 4 argon high | 50 | 7.68 | 326 |
-| 24 | sonnet 5.5 max | 🥉 55 | 10.02 | 302 |
-| 25 | fable 5.1 high | 47 | 7.54 | 293 |
-| 26 | muse wonder max | 44 | 6.95 | 279 |
-| 27 | fable 5.1 max | 49 | 12.99 | 185 |
-| 28 | grok 4.7 xhigh | 35 | 7.77 | 158 |
+| 17 | gpt 6 astra high | 55 | 3.24 | 934 |
+| 18 | fable 5.2 medium | 56 | 3.8 | 825 |
+| 19 | opus 5.5 high | 52 | 3.46 | 782 |
+| 20 | kimi k3.1 pro | 46 | 3.68 | 575 |
+| 21 | gpt 6 astra max | 57 | 6.24 | 521 |
+| 22 | fable 5.2 high | 🥈 62 | 9.08 | 423 |
+| 23 | opus 5.5 max | 🥉 59 | 10.04 | 347 |
+| 24 | fable 5.1 medium | 43 | 5.56 | 333 |
+| 25 | sonnet 5.5 max | 55 | 10.02 | 302 |
+| 26 | fable 5.1 high | 47 | 7.54 | 293 |
+| 27 | muse wonder max | 44 | 6.95 | 279 |
+| 28 | gemini 4 argon high | 50 | 9.95 | 251 |
+| 29 | fable 5.1 max | 49 | 12.99 | 185 |
+| 30 | fable 5.2 max | 🥇 65 | 26.54 | 159 |
+| 31 | grok 4.7 xhigh | 35 | 7.77 | 158 |
 
 ## Where the Numbers Come From
 
@@ -81,7 +87,7 @@ It benchmarks AI models and reports measures such as intelligence, speed, and co
 Its Intelligence Index combines multiple evaluations into a weighted measure of model capability;
 see its [intelligence benchmarking methodology](https://artificialanalysis.ai/methodology/intelligence-benchmarking) for the benchmark definitions and weighting.
 
-Data snapshot: Artificial Analysis Intelligence Index **v5.0.1**, verified on **2026-11-04**.
+Data snapshot: Artificial Analysis Intelligence Index **v5.0.1**, verified on **2026-11-10**.
 
 Intelligence is recorded at the source's displayed precision (a whole number), and Cost per task is recorded in **USD**, rounded to two decimal places.
 Cost per task is the weighted average cost of running one Intelligence Index task, not a price per million tokens or a quote for your own workload.
@@ -90,7 +96,7 @@ Compare models within the same index version; scores from different versions are
 
 The selected model variants and their verified Artificial Analysis values are stored in `data.json`.
 Model names are shortened for readability. Reasoning settings such as `medium`, `high`, `xhigh`, and `max` identify separate variants;
-the Claude Opus 5.5, Sonnet 5.5, and Fable 5.1 entries use the source's default fallback configuration.
+the Claude Opus 5.5, Sonnet 5.5, Fable 5.1, and Fable 5.2 entries use the source's default fallback configuration.
 This project does not run those benchmarks or automatically refresh the inputs from the source.
 
 ## How This Project Ranks Models

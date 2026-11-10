@@ -1,7 +1,7 @@
 {
   "source": {
     "intelligence_index_version": "5.0.1",
-    "verified_on": "2026-11-04"
+    "verified_on": "2026-11-10"
   },
   "exponents": {
     "light": 2,
@@ -41,7 +41,7 @@
     {
       "name": "gemini 4 argon high",
       "intelligence": 50,
-      "cost_per_task": 7.68
+      "cost_per_task": 9.95
     },
     {
       "name": "muse wonder max",
@@ -147,6 +147,21 @@
       "name": "gpt 6.1 terra max",
       "intelligence": 51,
       "cost_per_task": 0.96
+    },
+    {
+      "name": "fable 5.2 medium",
+      "intelligence": 56,
+      "cost_per_task": 3.8
+    },
+    {
+      "name": "fable 5.2 high",
+      "intelligence": 62,
+      "cost_per_task": 9.08
+    },
+    {
+      "name": "fable 5.2 max",
+      "intelligence": 65,
+      "cost_per_task": 26.54
     }
   ]
 }
