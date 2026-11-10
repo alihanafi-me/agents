@@ -25,23 +25,24 @@ Current exponent: `10`
 | 13 | opus 5.5 high | 52 | 3.46 | 41.8m |
 | 14 | gpt 6.1 terra medium | 38 | 0.17 | 36.9m |
 | 15 | opus 5.5 medium | 48 | 2.45 | 26.5m |
-| 16 | sonnet 5.5 max | 55 | 10.02 | 25.3m |
-| 17 | kimi k3.1 pro | 46 | 3.68 | 11.5m |
-| 18 | sonnet 5.5 high | 42 | 1.64 | 10.4m |
-| 19 | gemini 4 argon high | 50 | 9.95 | 9.8m |
-| 20 | haiku 5.5 max | 36 | 0.41 | 8.9m |
-| 21 | fable 5.1 high | 47 | 7.54 | 7m |
-| 22 | fable 5.1 max | 49 | 12.99 | 6.1m |
-| 23 | muse wonder max | 44 | 6.95 | 3.9m |
-| 24 | fable 5.1 medium | 43 | 5.56 | 3.9m |
-| 25 | haiku 5.5 high | 30 | 0.16 | 3.7m |
-| 26 | muse wonder high | 41 | 4.56 | 2.9m |
-| 27 | gpt 6 luna max | 28 | 0.15 | 2m |
-| 28 | haiku 5.5 medium | 25 | 🥉 0.09 | 1.1m |
-| 29 | sonnet 5.5 medium | 31 | 0.78 | 1.1m |
-| 30 | grok 4.7 xhigh | 35 | 7.77 | 355k |
-| 31 | gpt 6 luna high | 21 | 🥈 0.07 | 238.3k |
-| 32 | gpt 6 luna medium | 18 | 🥇 0.04 | 89.3k |
+| 16 | muse ember max | 36 | 0.14 | 26.1m |
+| 17 | sonnet 5.5 max | 55 | 10.02 | 25.3m |
+| 18 | kimi k3.1 pro | 46 | 3.68 | 11.5m |
+| 19 | sonnet 5.5 high | 42 | 1.64 | 10.4m |
+| 20 | gemini 4 argon high | 50 | 9.95 | 9.8m |
+| 21 | haiku 5.5 max | 36 | 0.41 | 8.9m |
+| 22 | fable 5.1 high | 47 | 7.54 | 7m |
+| 23 | fable 5.1 max | 49 | 12.99 | 6.1m |
+| 24 | muse wonder max | 44 | 6.95 | 3.9m |
+| 25 | fable 5.1 medium | 43 | 5.56 | 3.9m |
+| 26 | haiku 5.5 high | 30 | 0.16 | 3.7m |
+| 27 | muse wonder high | 41 | 4.56 | 2.9m |
+| 28 | gpt 6 luna max | 28 | 0.15 | 2m |
+| 29 | haiku 5.5 medium | 25 | 🥉 0.09 | 1.1m |
+| 30 | sonnet 5.5 medium | 31 | 0.78 | 1.1m |
+| 31 | grok 4.7 xhigh | 35 | 7.77 | 355k |
+| 32 | gpt 6 luna high | 21 | 🥈 0.07 | 238.3k |
+| 33 | gpt 6 luna medium | 18 | 🥇 0.04 | 89.3k |
 
 ## Light Tasks
 
@@ -49,38 +50,39 @@ Current exponent: `2`
 
 | Rank | Model / Agent | Intelligence | Cost per task | Score |
 | ---: | --- | ---: | ---: | ---: |
-| 🥇 1 | gpt 6.1 terra medium | 38 | 0.17 | 8.5k |
-| 🥈 2 | gpt 6 luna medium | 18 | 🥇 0.04 | 8.1k |
-| 🥉 3 | haiku 5.5 medium | 25 | 🥉 0.09 | 6.9k |
-| 4 | gpt 6.1 terra high | 42 | 0.26 | 6.8k |
-| 5 | gpt 6 luna high | 21 | 🥈 0.07 | 6.3k |
-| 6 | gpt 6.1 sol medium | 46 | 0.36 | 5.9k |
-| 7 | haiku 5.5 high | 30 | 0.16 | 5.6k |
-| 8 | gpt 6 luna max | 28 | 0.15 | 5.2k |
-| 9 | gpt 6.1 sol high | 50 | 0.59 | 4.2k |
-| 10 | haiku 5.5 max | 36 | 0.41 | 3.2k |
-| 11 | gpt 6.1 terra max | 51 | 0.96 | 2.7k |
-| 12 | gpt 6.1 sol max | 55 | 1.27 | 2.4k |
-| 13 | sonnet 5.5 medium | 31 | 0.78 | 1.2k |
-| 14 | sonnet 5.5 high | 42 | 1.64 | 1.1k |
-| 15 | gpt 6 astra medium | 52 | 2.73 | 990 |
-| 16 | opus 5.5 medium | 48 | 2.45 | 940 |
-| 17 | gpt 6 astra high | 55 | 3.24 | 934 |
-| 18 | fable 5.2 medium | 56 | 3.8 | 825 |
-| 19 | opus 5.5 high | 52 | 3.46 | 782 |
-| 20 | kimi k3.1 pro | 46 | 3.68 | 575 |
-| 21 | gpt 6 astra max | 57 | 6.24 | 521 |
-| 22 | fable 5.2 high | 🥈 62 | 9.08 | 423 |
-| 23 | muse wonder high | 41 | 4.56 | 369 |
-| 24 | opus 5.5 max | 🥉 59 | 10.04 | 347 |
-| 25 | fable 5.1 medium | 43 | 5.56 | 333 |
-| 26 | sonnet 5.5 max | 55 | 10.02 | 302 |
-| 27 | fable 5.1 high | 47 | 7.54 | 293 |
-| 28 | muse wonder max | 44 | 6.95 | 279 |
-| 29 | gemini 4 argon high | 50 | 9.95 | 251 |
-| 30 | fable 5.1 max | 49 | 12.99 | 185 |
-| 31 | fable 5.2 max | 🥇 65 | 26.54 | 159 |
-| 32 | grok 4.7 xhigh | 35 | 7.77 | 158 |
+| 🥇 1 | muse ember max | 36 | 0.14 | 9.3k |
+| 🥈 2 | gpt 6.1 terra medium | 38 | 0.17 | 8.5k |
+| 🥉 3 | gpt 6 luna medium | 18 | 🥇 0.04 | 8.1k |
+| 4 | haiku 5.5 medium | 25 | 🥉 0.09 | 6.9k |
+| 5 | gpt 6.1 terra high | 42 | 0.26 | 6.8k |
+| 6 | gpt 6 luna high | 21 | 🥈 0.07 | 6.3k |
+| 7 | gpt 6.1 sol medium | 46 | 0.36 | 5.9k |
+| 8 | haiku 5.5 high | 30 | 0.16 | 5.6k |
+| 9 | gpt 6 luna max | 28 | 0.15 | 5.2k |
+| 10 | gpt 6.1 sol high | 50 | 0.59 | 4.2k |
+| 11 | haiku 5.5 max | 36 | 0.41 | 3.2k |
+| 12 | gpt 6.1 terra max | 51 | 0.96 | 2.7k |
+| 13 | gpt 6.1 sol max | 55 | 1.27 | 2.4k |
+| 14 | sonnet 5.5 medium | 31 | 0.78 | 1.2k |
+| 15 | sonnet 5.5 high | 42 | 1.64 | 1.1k |
+| 16 | gpt 6 astra medium | 52 | 2.73 | 990 |
+| 17 | opus 5.5 medium | 48 | 2.45 | 940 |
+| 18 | gpt 6 astra high | 55 | 3.24 | 934 |
+| 19 | fable 5.2 medium | 56 | 3.8 | 825 |
+| 20 | opus 5.5 high | 52 | 3.46 | 782 |
+| 21 | kimi k3.1 pro | 46 | 3.68 | 575 |
+| 22 | gpt 6 astra max | 57 | 6.24 | 521 |
+| 23 | fable 5.2 high | 🥈 62 | 9.08 | 423 |
+| 24 | muse wonder high | 41 | 4.56 | 369 |
+| 25 | opus 5.5 max | 🥉 59 | 10.04 | 347 |
+| 26 | fable 5.1 medium | 43 | 5.56 | 333 |
+| 27 | sonnet 5.5 max | 55 | 10.02 | 302 |
+| 28 | fable 5.1 high | 47 | 7.54 | 293 |
+| 29 | muse wonder max | 44 | 6.95 | 279 |
+| 30 | gemini 4 argon high | 50 | 9.95 | 251 |
+| 31 | fable 5.1 max | 49 | 12.99 | 185 |
+| 32 | fable 5.2 max | 🥇 65 | 26.54 | 159 |
+| 33 | grok 4.7 xhigh | 35 | 7.77 | 158 |
 
 ## Where the Numbers Come From
 

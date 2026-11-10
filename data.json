@@ -167,6 +167,11 @@
       "name": "fable 5.2 max",
       "intelligence": 65,
       "cost_per_task": 26.54
+    },
+    {
+      "name": "muse ember max",
+      "intelligence": 36,
+      "cost_per_task": 0.14
     }
   ]
 }
