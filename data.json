@@ -1,7 +1,7 @@
 {
   "source": {
     "intelligence_index_version": "5.0.1",
-    "verified_on": "2026-11-10"
+    "verified_on": "2026-11-11"
   },
   "exponents": {
     "light": 2,
@@ -182,6 +182,56 @@
       "name": "gemini 4 carbon high",
       "intelligence": 60,
       "cost_per_task": 7.76
+    },
+    {
+      "name": "opus 5.5 xhigh",
+      "intelligence": 57,
+      "cost_per_task": 6.05
+    },
+    {
+      "name": "sonnet 5.5 xhigh",
+      "intelligence": 50,
+      "cost_per_task": 4.09
+    },
+    {
+      "name": "fable 5.1 xhigh",
+      "intelligence": 50,
+      "cost_per_task": 10.85
+    },
+    {
+      "name": "fable 5.2 xhigh",
+      "intelligence": 62,
+      "cost_per_task": 14.83
+    },
+    {
+      "name": "haiku 5.5 xhigh",
+      "intelligence": 35,
+      "cost_per_task": 0.25
+    },
+    {
+      "name": "gpt 6 astra xhigh",
+      "intelligence": 55,
+      "cost_per_task": 3.66
+    },
+    {
+      "name": "gpt 6.1 sol xhigh",
+      "intelligence": 52,
+      "cost_per_task": 0.76
+    },
+    {
+      "name": "gpt 6.1 terra xhigh",
+      "intelligence": 45,
+      "cost_per_task": 0.4
+    },
+    {
+      "name": "gpt 6 luna xhigh",
+      "intelligence": 23,
+      "cost_per_task": 0.1
+    },
+    {
+      "name": "muse ember xhigh",
+      "intelligence": 34,
+      "cost_per_task": 0.12
     }
   ]
 }

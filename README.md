@@ -11,40 +11,50 @@ Current exponent: `10`
 | Rank | Model / Agent | Intelligence | Cost per task | Score |
 | ---: | --- | ---: | ---: | ---: |
 | 🥇 1 | gpt 6.1 sol max | 55 | 1.27 | 199.4m |
-| 🥈 2 | gpt 6.1 sol high | 50 | 0.59 | 165.5m |
-| 🥉 3 | gpt 6.1 terra max | 51 | 0.96 | 124m |
-| 4 | gpt 6.1 sol medium | 46 | 0.36 | 117.8m |
-| 5 | fable 5.2 high | 🥈 62 | 9.08 | 92.4m |
-| 6 | fable 5.2 medium | 56 | 3.8 | 79.8m |
-| 7 | gpt 6 astra high | 55 | 3.24 | 78.2m |
-| 8 | gemini 4 carbon high | 🥉 60 | 7.76 | 77.9m |
-| 9 | gpt 6.1 terra high | 42 | 0.26 | 65.7m |
-| 10 | gemini 4 carbon medium | 58 | 6.59 | 65.4m |
-| 11 | gpt 6 astra max | 57 | 6.24 | 58m |
-| 12 | gpt 6 astra medium | 52 | 2.73 | 53m |
-| 13 | opus 5.5 max | 59 | 10.04 | 50.9m |
-| 14 | fable 5.2 max | 🥇 65 | 26.54 | 50.7m |
-| 15 | opus 5.5 high | 52 | 3.46 | 41.8m |
-| 16 | gpt 6.1 terra medium | 38 | 0.17 | 36.9m |
-| 17 | opus 5.5 medium | 48 | 2.45 | 26.5m |
-| 18 | muse ember max | 36 | 0.14 | 26.1m |
-| 19 | sonnet 5.5 max | 55 | 10.02 | 25.3m |
-| 20 | kimi k3.1 pro | 46 | 3.68 | 11.5m |
-| 21 | sonnet 5.5 high | 42 | 1.64 | 10.4m |
-| 22 | gemini 4 argon high | 50 | 9.95 | 9.8m |
-| 23 | haiku 5.5 max | 36 | 0.41 | 8.9m |
-| 24 | fable 5.1 high | 47 | 7.54 | 7m |
-| 25 | fable 5.1 max | 49 | 12.99 | 6.1m |
-| 26 | muse wonder max | 44 | 6.95 | 3.9m |
-| 27 | fable 5.1 medium | 43 | 5.56 | 3.9m |
-| 28 | haiku 5.5 high | 30 | 0.16 | 3.7m |
-| 29 | muse wonder high | 41 | 4.56 | 2.9m |
-| 30 | gpt 6 luna max | 28 | 0.15 | 2m |
-| 31 | haiku 5.5 medium | 25 | 🥉 0.09 | 1.1m |
-| 32 | sonnet 5.5 medium | 31 | 0.78 | 1.1m |
-| 33 | grok 4.7 xhigh | 35 | 7.77 | 355k |
-| 34 | gpt 6 luna high | 21 | 🥈 0.07 | 238.3k |
-| 35 | gpt 6 luna medium | 18 | 🥇 0.04 | 89.3k |
+| 🥈 2 | gpt 6.1 sol xhigh | 52 | 0.76 | 190.2m |
+| 🥉 3 | gpt 6.1 sol high | 50 | 0.59 | 165.5m |
+| 4 | gpt 6.1 terra max | 51 | 0.96 | 124m |
+| 5 | gpt 6.1 sol medium | 46 | 0.36 | 117.8m |
+| 6 | fable 5.2 high | 🥈 62 | 9.08 | 92.4m |
+| 7 | gpt 6.1 terra xhigh | 45 | 0.4 | 85.1m |
+| 8 | fable 5.2 medium | 56 | 3.8 | 79.8m |
+| 9 | gpt 6 astra high | 55 | 3.24 | 78.2m |
+| 10 | gemini 4 carbon high | 🥉 60 | 7.76 | 77.9m |
+| 11 | gpt 6 astra xhigh | 55 | 3.66 | 69.2m |
+| 12 | gpt 6.1 terra high | 42 | 0.26 | 65.7m |
+| 13 | gemini 4 carbon medium | 58 | 6.59 | 65.4m |
+| 14 | opus 5.5 xhigh | 57 | 6.05 | 59.8m |
+| 15 | gpt 6 astra max | 57 | 6.24 | 58m |
+| 16 | fable 5.2 xhigh | 🥈 62 | 14.83 | 56.6m |
+| 17 | gpt 6 astra medium | 52 | 2.73 | 53m |
+| 18 | opus 5.5 max | 59 | 10.04 | 50.9m |
+| 19 | fable 5.2 max | 🥇 65 | 26.54 | 50.7m |
+| 20 | opus 5.5 high | 52 | 3.46 | 41.8m |
+| 21 | gpt 6.1 terra medium | 38 | 0.17 | 36.9m |
+| 22 | opus 5.5 medium | 48 | 2.45 | 26.5m |
+| 23 | muse ember max | 36 | 0.14 | 26.1m |
+| 24 | sonnet 5.5 max | 55 | 10.02 | 25.3m |
+| 25 | sonnet 5.5 xhigh | 50 | 4.09 | 23.9m |
+| 26 | muse ember xhigh | 34 | 0.12 | 17.2m |
+| 27 | kimi k3.1 pro | 46 | 3.68 | 11.5m |
+| 28 | haiku 5.5 xhigh | 35 | 0.25 | 11m |
+| 29 | sonnet 5.5 high | 42 | 1.64 | 10.4m |
+| 30 | gemini 4 argon high | 50 | 9.95 | 9.8m |
+| 31 | fable 5.1 xhigh | 50 | 10.85 | 9m |
+| 32 | haiku 5.5 max | 36 | 0.41 | 8.9m |
+| 33 | fable 5.1 high | 47 | 7.54 | 7m |
+| 34 | fable 5.1 max | 49 | 12.99 | 6.1m |
+| 35 | muse wonder max | 44 | 6.95 | 3.9m |
+| 36 | fable 5.1 medium | 43 | 5.56 | 3.9m |
+| 37 | haiku 5.5 high | 30 | 0.16 | 3.7m |
+| 38 | muse wonder high | 41 | 4.56 | 2.9m |
+| 39 | gpt 6 luna max | 28 | 0.15 | 2m |
+| 40 | haiku 5.5 medium | 25 | 🥉 0.09 | 1.1m |
+| 41 | sonnet 5.5 medium | 31 | 0.78 | 1.1m |
+| 42 | gpt 6 luna xhigh | 23 | 0.1 | 414.3k |
+| 43 | grok 4.7 xhigh | 35 | 7.77 | 355k |
+| 44 | gpt 6 luna high | 21 | 🥈 0.07 | 238.3k |
+| 45 | gpt 6 luna medium | 18 | 🥇 0.04 | 89.3k |
 
 ## Light Tasks
 
@@ -52,41 +62,51 @@ Current exponent: `2`
 
 | Rank | Model / Agent | Intelligence | Cost per task | Score |
 | ---: | --- | ---: | ---: | ---: |
-| 🥇 1 | muse ember max | 36 | 0.14 | 9.3k |
-| 🥈 2 | gpt 6.1 terra medium | 38 | 0.17 | 8.5k |
-| 🥉 3 | gpt 6 luna medium | 18 | 🥇 0.04 | 8.1k |
-| 4 | haiku 5.5 medium | 25 | 🥉 0.09 | 6.9k |
-| 5 | gpt 6.1 terra high | 42 | 0.26 | 6.8k |
-| 6 | gpt 6 luna high | 21 | 🥈 0.07 | 6.3k |
-| 7 | gpt 6.1 sol medium | 46 | 0.36 | 5.9k |
-| 8 | haiku 5.5 high | 30 | 0.16 | 5.6k |
-| 9 | gpt 6 luna max | 28 | 0.15 | 5.2k |
-| 10 | gpt 6.1 sol high | 50 | 0.59 | 4.2k |
-| 11 | haiku 5.5 max | 36 | 0.41 | 3.2k |
-| 12 | gpt 6.1 terra max | 51 | 0.96 | 2.7k |
-| 13 | gpt 6.1 sol max | 55 | 1.27 | 2.4k |
-| 14 | sonnet 5.5 medium | 31 | 0.78 | 1.2k |
-| 15 | sonnet 5.5 high | 42 | 1.64 | 1.1k |
-| 16 | gpt 6 astra medium | 52 | 2.73 | 990 |
-| 17 | opus 5.5 medium | 48 | 2.45 | 940 |
-| 18 | gpt 6 astra high | 55 | 3.24 | 934 |
-| 19 | fable 5.2 medium | 56 | 3.8 | 825 |
-| 20 | opus 5.5 high | 52 | 3.46 | 782 |
-| 21 | kimi k3.1 pro | 46 | 3.68 | 575 |
-| 22 | gpt 6 astra max | 57 | 6.24 | 521 |
-| 23 | gemini 4 carbon medium | 58 | 6.59 | 510 |
-| 24 | gemini 4 carbon high | 🥉 60 | 7.76 | 464 |
-| 25 | fable 5.2 high | 🥈 62 | 9.08 | 423 |
-| 26 | muse wonder high | 41 | 4.56 | 369 |
-| 27 | opus 5.5 max | 59 | 10.04 | 347 |
-| 28 | fable 5.1 medium | 43 | 5.56 | 333 |
-| 29 | sonnet 5.5 max | 55 | 10.02 | 302 |
-| 30 | fable 5.1 high | 47 | 7.54 | 293 |
-| 31 | muse wonder max | 44 | 6.95 | 279 |
-| 32 | gemini 4 argon high | 50 | 9.95 | 251 |
-| 33 | fable 5.1 max | 49 | 12.99 | 185 |
-| 34 | fable 5.2 max | 🥇 65 | 26.54 | 159 |
-| 35 | grok 4.7 xhigh | 35 | 7.77 | 158 |
+| 🥇 1 | muse ember xhigh | 34 | 0.12 | 9.6k |
+| 🥈 2 | muse ember max | 36 | 0.14 | 9.3k |
+| 🥉 3 | gpt 6.1 terra medium | 38 | 0.17 | 8.5k |
+| 4 | gpt 6 luna medium | 18 | 🥇 0.04 | 8.1k |
+| 5 | haiku 5.5 medium | 25 | 🥉 0.09 | 6.9k |
+| 6 | gpt 6.1 terra high | 42 | 0.26 | 6.8k |
+| 7 | gpt 6 luna high | 21 | 🥈 0.07 | 6.3k |
+| 8 | gpt 6.1 sol medium | 46 | 0.36 | 5.9k |
+| 9 | haiku 5.5 high | 30 | 0.16 | 5.6k |
+| 10 | gpt 6 luna xhigh | 23 | 0.1 | 5.3k |
+| 11 | gpt 6 luna max | 28 | 0.15 | 5.2k |
+| 12 | gpt 6.1 terra xhigh | 45 | 0.4 | 5.1k |
+| 13 | haiku 5.5 xhigh | 35 | 0.25 | 4.9k |
+| 14 | gpt 6.1 sol high | 50 | 0.59 | 4.2k |
+| 15 | gpt 6.1 sol xhigh | 52 | 0.76 | 3.6k |
+| 16 | haiku 5.5 max | 36 | 0.41 | 3.2k |
+| 17 | gpt 6.1 terra max | 51 | 0.96 | 2.7k |
+| 18 | gpt 6.1 sol max | 55 | 1.27 | 2.4k |
+| 19 | sonnet 5.5 medium | 31 | 0.78 | 1.2k |
+| 20 | sonnet 5.5 high | 42 | 1.64 | 1.1k |
+| 21 | gpt 6 astra medium | 52 | 2.73 | 990 |
+| 22 | opus 5.5 medium | 48 | 2.45 | 940 |
+| 23 | gpt 6 astra high | 55 | 3.24 | 934 |
+| 24 | gpt 6 astra xhigh | 55 | 3.66 | 827 |
+| 25 | fable 5.2 medium | 56 | 3.8 | 825 |
+| 26 | opus 5.5 high | 52 | 3.46 | 782 |
+| 27 | sonnet 5.5 xhigh | 50 | 4.09 | 611 |
+| 28 | kimi k3.1 pro | 46 | 3.68 | 575 |
+| 29 | opus 5.5 xhigh | 57 | 6.05 | 537 |
+| 30 | gpt 6 astra max | 57 | 6.24 | 521 |
+| 31 | gemini 4 carbon medium | 58 | 6.59 | 510 |
+| 32 | gemini 4 carbon high | 🥉 60 | 7.76 | 464 |
+| 33 | fable 5.2 high | 🥈 62 | 9.08 | 423 |
+| 34 | muse wonder high | 41 | 4.56 | 369 |
+| 35 | opus 5.5 max | 59 | 10.04 | 347 |
+| 36 | fable 5.1 medium | 43 | 5.56 | 333 |
+| 37 | sonnet 5.5 max | 55 | 10.02 | 302 |
+| 38 | fable 5.1 high | 47 | 7.54 | 293 |
+| 39 | muse wonder max | 44 | 6.95 | 279 |
+| 40 | fable 5.2 xhigh | 🥈 62 | 14.83 | 259 |
+| 41 | gemini 4 argon high | 50 | 9.95 | 251 |
+| 42 | fable 5.1 xhigh | 50 | 10.85 | 230 |
+| 43 | fable 5.1 max | 49 | 12.99 | 185 |
+| 44 | fable 5.2 max | 🥇 65 | 26.54 | 159 |
+| 45 | grok 4.7 xhigh | 35 | 7.77 | 158 |
 
 ## Where the Numbers Come From
 
@@ -95,7 +115,7 @@ It benchmarks AI models and reports measures such as intelligence, speed, and co
 Its Intelligence Index combines multiple evaluations into a weighted measure of model capability;
 see its [intelligence benchmarking methodology](https://artificialanalysis.ai/methodology/intelligence-benchmarking) for the benchmark definitions and weighting.
 
-Data snapshot: Artificial Analysis Intelligence Index **v5.0.1**, verified on **2026-11-10**.
+Data snapshot: Artificial Analysis Intelligence Index **v5.0.1**, verified on **2026-11-11**.
 
 Intelligence is recorded at the source's displayed precision (a whole number), and Cost per task is recorded in **USD**, rounded to two decimal places.
 Cost per task is the weighted average cost of running one Intelligence Index task, not a price per million tokens or a quote for your own workload.
