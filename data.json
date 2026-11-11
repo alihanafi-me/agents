@@ -172,6 +172,16 @@
       "name": "muse ember max",
       "intelligence": 36,
       "cost_per_task": 0.14
+    },
+    {
+      "name": "gemini 4 carbon medium",
+      "intelligence": 58,
+      "cost_per_task": 6.59
+    },
+    {
+      "name": "gemini 4 carbon high",
+      "intelligence": 60,
+      "cost_per_task": 7.76
     }
   ]
 }

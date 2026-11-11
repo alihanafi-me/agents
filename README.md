@@ -17,32 +17,34 @@ Current exponent: `10`
 | 5 | fable 5.2 high | 🥈 62 | 9.08 | 92.4m |
 | 6 | fable 5.2 medium | 56 | 3.8 | 79.8m |
 | 7 | gpt 6 astra high | 55 | 3.24 | 78.2m |
-| 8 | gpt 6.1 terra high | 42 | 0.26 | 65.7m |
-| 9 | gpt 6 astra max | 57 | 6.24 | 58m |
-| 10 | gpt 6 astra medium | 52 | 2.73 | 53m |
-| 11 | opus 5.5 max | 🥉 59 | 10.04 | 50.9m |
-| 12 | fable 5.2 max | 🥇 65 | 26.54 | 50.7m |
-| 13 | opus 5.5 high | 52 | 3.46 | 41.8m |
-| 14 | gpt 6.1 terra medium | 38 | 0.17 | 36.9m |
-| 15 | opus 5.5 medium | 48 | 2.45 | 26.5m |
-| 16 | muse ember max | 36 | 0.14 | 26.1m |
-| 17 | sonnet 5.5 max | 55 | 10.02 | 25.3m |
-| 18 | kimi k3.1 pro | 46 | 3.68 | 11.5m |
-| 19 | sonnet 5.5 high | 42 | 1.64 | 10.4m |
-| 20 | gemini 4 argon high | 50 | 9.95 | 9.8m |
-| 21 | haiku 5.5 max | 36 | 0.41 | 8.9m |
-| 22 | fable 5.1 high | 47 | 7.54 | 7m |
-| 23 | fable 5.1 max | 49 | 12.99 | 6.1m |
-| 24 | muse wonder max | 44 | 6.95 | 3.9m |
-| 25 | fable 5.1 medium | 43 | 5.56 | 3.9m |
-| 26 | haiku 5.5 high | 30 | 0.16 | 3.7m |
-| 27 | muse wonder high | 41 | 4.56 | 2.9m |
-| 28 | gpt 6 luna max | 28 | 0.15 | 2m |
-| 29 | haiku 5.5 medium | 25 | 🥉 0.09 | 1.1m |
-| 30 | sonnet 5.5 medium | 31 | 0.78 | 1.1m |
-| 31 | grok 4.7 xhigh | 35 | 7.77 | 355k |
-| 32 | gpt 6 luna high | 21 | 🥈 0.07 | 238.3k |
-| 33 | gpt 6 luna medium | 18 | 🥇 0.04 | 89.3k |
+| 8 | gemini 4 carbon high | 🥉 60 | 7.76 | 77.9m |
+| 9 | gpt 6.1 terra high | 42 | 0.26 | 65.7m |
+| 10 | gemini 4 carbon medium | 58 | 6.59 | 65.4m |
+| 11 | gpt 6 astra max | 57 | 6.24 | 58m |
+| 12 | gpt 6 astra medium | 52 | 2.73 | 53m |
+| 13 | opus 5.5 max | 59 | 10.04 | 50.9m |
+| 14 | fable 5.2 max | 🥇 65 | 26.54 | 50.7m |
+| 15 | opus 5.5 high | 52 | 3.46 | 41.8m |
+| 16 | gpt 6.1 terra medium | 38 | 0.17 | 36.9m |
+| 17 | opus 5.5 medium | 48 | 2.45 | 26.5m |
+| 18 | muse ember max | 36 | 0.14 | 26.1m |
+| 19 | sonnet 5.5 max | 55 | 10.02 | 25.3m |
+| 20 | kimi k3.1 pro | 46 | 3.68 | 11.5m |
+| 21 | sonnet 5.5 high | 42 | 1.64 | 10.4m |
+| 22 | gemini 4 argon high | 50 | 9.95 | 9.8m |
+| 23 | haiku 5.5 max | 36 | 0.41 | 8.9m |
+| 24 | fable 5.1 high | 47 | 7.54 | 7m |
+| 25 | fable 5.1 max | 49 | 12.99 | 6.1m |
+| 26 | muse wonder max | 44 | 6.95 | 3.9m |
+| 27 | fable 5.1 medium | 43 | 5.56 | 3.9m |
+| 28 | haiku 5.5 high | 30 | 0.16 | 3.7m |
+| 29 | muse wonder high | 41 | 4.56 | 2.9m |
+| 30 | gpt 6 luna max | 28 | 0.15 | 2m |
+| 31 | haiku 5.5 medium | 25 | 🥉 0.09 | 1.1m |
+| 32 | sonnet 5.5 medium | 31 | 0.78 | 1.1m |
+| 33 | grok 4.7 xhigh | 35 | 7.77 | 355k |
+| 34 | gpt 6 luna high | 21 | 🥈 0.07 | 238.3k |
+| 35 | gpt 6 luna medium | 18 | 🥇 0.04 | 89.3k |
 
 ## Light Tasks
 
@@ -72,17 +74,19 @@ Current exponent: `2`
 | 20 | opus 5.5 high | 52 | 3.46 | 782 |
 | 21 | kimi k3.1 pro | 46 | 3.68 | 575 |
 | 22 | gpt 6 astra max | 57 | 6.24 | 521 |
-| 23 | fable 5.2 high | 🥈 62 | 9.08 | 423 |
-| 24 | muse wonder high | 41 | 4.56 | 369 |
-| 25 | opus 5.5 max | 🥉 59 | 10.04 | 347 |
-| 26 | fable 5.1 medium | 43 | 5.56 | 333 |
-| 27 | sonnet 5.5 max | 55 | 10.02 | 302 |
-| 28 | fable 5.1 high | 47 | 7.54 | 293 |
-| 29 | muse wonder max | 44 | 6.95 | 279 |
-| 30 | gemini 4 argon high | 50 | 9.95 | 251 |
-| 31 | fable 5.1 max | 49 | 12.99 | 185 |
-| 32 | fable 5.2 max | 🥇 65 | 26.54 | 159 |
-| 33 | grok 4.7 xhigh | 35 | 7.77 | 158 |
+| 23 | gemini 4 carbon medium | 58 | 6.59 | 510 |
+| 24 | gemini 4 carbon high | 🥉 60 | 7.76 | 464 |
+| 25 | fable 5.2 high | 🥈 62 | 9.08 | 423 |
+| 26 | muse wonder high | 41 | 4.56 | 369 |
+| 27 | opus 5.5 max | 59 | 10.04 | 347 |
+| 28 | fable 5.1 medium | 43 | 5.56 | 333 |
+| 29 | sonnet 5.5 max | 55 | 10.02 | 302 |
+| 30 | fable 5.1 high | 47 | 7.54 | 293 |
+| 31 | muse wonder max | 44 | 6.95 | 279 |
+| 32 | gemini 4 argon high | 50 | 9.95 | 251 |
+| 33 | fable 5.1 max | 49 | 12.99 | 185 |
+| 34 | fable 5.2 max | 🥇 65 | 26.54 | 159 |
+| 35 | grok 4.7 xhigh | 35 | 7.77 | 158 |
 
 ## Where the Numbers Come From
 
