@@ -2,6 +2,7 @@
 
 import json
 import math
+import re
 from pathlib import Path
 
 
@@ -41,6 +42,8 @@ def generate(data):
         name = model["name"]
         if not isinstance(name, str) or not name.strip() or name in names:
             raise ValueError("Model names must be nonempty, unique strings")
+        if re.search(r"\bnon[\W_]*reasoning\b", name, re.IGNORECASE):
+            raise ValueError(f"Non-reasoning variants are excluded from the rankings: {name}")
         names.add(name)
         number(model["intelligence"], f"{name}.intelligence", allow_zero=True)
         number(model["cost_per_task"], f"{name}.cost_per_task")
@@ -66,6 +69,7 @@ def generate(data):
 ![Decorative abstract chart with glowing curves; no real data is represented.](assets/ai-agent-rankings.png)
 
 Compare user-selected AI models and agents for light and heavy tasks.
+Non-reasoning variants are excluded from these rankings.
 
 """]
     for kind, title in (("heavy", "Heavy Tasks"), ("light", "Light Tasks")):

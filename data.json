@@ -322,11 +322,6 @@
       "name": "deepseek v4.1 flash 1017 high",
       "intelligence": 29,
       "cost_per_task": 0.46
-    },
-    {
-      "name": "deepseek v4.1 flash 1017 non-reasoning",
-      "intelligence": 19,
-      "cost_per_task": 0.43
     }
   ]
 }

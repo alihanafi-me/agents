@@ -3,6 +3,7 @@
 ![Decorative abstract chart with glowing curves; no real data is represented.](assets/ai-agent-rankings.png)
 
 Compare user-selected AI models and agents for light and heavy tasks.
+Non-reasoning variants are excluded from these rankings.
 
 ## Heavy Tasks
 
@@ -69,11 +70,10 @@ Current exponent: `10`
 | 57 | gpt 6 luna high | 21 | 🥉 0.07 | 238.3k |
 | 58 | haiku 5.5 low | 19 | 🥈 0.04 | 153.3k |
 | 59 | gpt 6 luna medium | 18 | 🥈 0.04 | 89.3k |
-| 60 | deepseek v4.1 flash 1017 non-reasoning | 19 | 0.43 | 14.3k |
-| 61 | qwen 3.8 27b xhigh | 20 | 3.53 | 2.9k |
-| 62 | gpt 6 luna low | 10 | 🥇 0.01 | 1k |
-| 63 | qwen 3.8 27b medium | 17 | 2.16 | 933 |
-| 64 | qwen 3.8 27b low | 16 | 1.91 | 576 |
+| 60 | qwen 3.8 27b xhigh | 20 | 3.53 | 2.9k |
+| 61 | gpt 6 luna low | 10 | 🥇 0.01 | 1k |
+| 62 | qwen 3.8 27b medium | 17 | 2.16 | 933 |
+| 63 | qwen 3.8 27b low | 16 | 1.91 | 576 |
 
 ## Light Tasks
 
@@ -115,36 +115,35 @@ Current exponent: `2`
 | 32 | fable 5.2 low | 54 | 3.1 | 941 |
 | 33 | opus 5.5 medium | 48 | 2.45 | 940 |
 | 34 | gpt 6 astra high | 55 | 3.24 | 934 |
-| 35 | deepseek v4.1 flash 1017 non-reasoning | 19 | 0.43 | 840 |
-| 36 | gpt 6 astra xhigh | 55 | 3.66 | 827 |
-| 37 | fable 5.2 medium | 56 | 3.8 | 825 |
-| 38 | opus 5.5 high | 52 | 3.46 | 782 |
-| 39 | sonnet 5.5 xhigh | 50 | 4.09 | 611 |
-| 40 | kimi k3.1 pro | 46 | 3.68 | 575 |
-| 41 | opus 5.5 xhigh | 57 | 6.05 | 537 |
-| 42 | gpt 6 astra max | 57 | 6.24 | 521 |
-| 43 | gemini 4 carbon medium | 58 | 6.59 | 510 |
-| 44 | gemini 4 carbon high | 🥉 60 | 7.76 | 464 |
-| 45 | fable 5.2 high | 🥈 62 | 9.08 | 423 |
-| 46 | gemini 4 carbon low | 54 | 7.19 | 406 |
-| 47 | muse wonder high | 41 | 4.56 | 369 |
-| 48 | opus 5.5 max | 59 | 10.04 | 347 |
-| 49 | fable 5.1 low | 39 | 4.47 | 340 |
-| 50 | fable 5.1 medium | 43 | 5.56 | 333 |
-| 51 | grok 4.7 low | 31 | 2.92 | 329 |
-| 52 | sonnet 5.5 max | 55 | 10.02 | 302 |
-| 53 | fable 5.1 high | 47 | 7.54 | 293 |
-| 54 | muse wonder max | 44 | 6.95 | 279 |
-| 55 | fable 5.2 xhigh | 🥈 62 | 14.83 | 259 |
-| 56 | gemini 4 argon high | 50 | 9.95 | 251 |
-| 57 | fable 5.1 xhigh | 50 | 10.85 | 230 |
-| 58 | grok 4.7 high | 35 | 6.18 | 198 |
-| 59 | fable 5.1 max | 49 | 12.99 | 185 |
-| 60 | fable 5.2 max | 🥇 65 | 26.54 | 159 |
-| 61 | grok 4.7 xhigh | 35 | 7.77 | 158 |
-| 62 | qwen 3.8 27b low | 16 | 1.91 | 134 |
-| 63 | qwen 3.8 27b medium | 17 | 2.16 | 134 |
-| 64 | qwen 3.8 27b xhigh | 20 | 3.53 | 113 |
+| 35 | gpt 6 astra xhigh | 55 | 3.66 | 827 |
+| 36 | fable 5.2 medium | 56 | 3.8 | 825 |
+| 37 | opus 5.5 high | 52 | 3.46 | 782 |
+| 38 | sonnet 5.5 xhigh | 50 | 4.09 | 611 |
+| 39 | kimi k3.1 pro | 46 | 3.68 | 575 |
+| 40 | opus 5.5 xhigh | 57 | 6.05 | 537 |
+| 41 | gpt 6 astra max | 57 | 6.24 | 521 |
+| 42 | gemini 4 carbon medium | 58 | 6.59 | 510 |
+| 43 | gemini 4 carbon high | 🥉 60 | 7.76 | 464 |
+| 44 | fable 5.2 high | 🥈 62 | 9.08 | 423 |
+| 45 | gemini 4 carbon low | 54 | 7.19 | 406 |
+| 46 | muse wonder high | 41 | 4.56 | 369 |
+| 47 | opus 5.5 max | 59 | 10.04 | 347 |
+| 48 | fable 5.1 low | 39 | 4.47 | 340 |
+| 49 | fable 5.1 medium | 43 | 5.56 | 333 |
+| 50 | grok 4.7 low | 31 | 2.92 | 329 |
+| 51 | sonnet 5.5 max | 55 | 10.02 | 302 |
+| 52 | fable 5.1 high | 47 | 7.54 | 293 |
+| 53 | muse wonder max | 44 | 6.95 | 279 |
+| 54 | fable 5.2 xhigh | 🥈 62 | 14.83 | 259 |
+| 55 | gemini 4 argon high | 50 | 9.95 | 251 |
+| 56 | fable 5.1 xhigh | 50 | 10.85 | 230 |
+| 57 | grok 4.7 high | 35 | 6.18 | 198 |
+| 58 | fable 5.1 max | 49 | 12.99 | 185 |
+| 59 | fable 5.2 max | 🥇 65 | 26.54 | 159 |
+| 60 | grok 4.7 xhigh | 35 | 7.77 | 158 |
+| 61 | qwen 3.8 27b low | 16 | 1.91 | 134 |
+| 62 | qwen 3.8 27b medium | 17 | 2.16 | 134 |
+| 63 | qwen 3.8 27b xhigh | 20 | 3.53 | 113 |
 
 ## Where the Numbers Come From
 

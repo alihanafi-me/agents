@@ -9,6 +9,7 @@ Maintain two Markdown rankings of user-selected AI models/agents in README.md:
 
 ## Data and scoring
 
+- Exclude all non-reasoning variants from the rankings. Do not add them to data.json.
 - The user supplies model names, Intelligence, and Cost per task from Artificial Analysis. Do not invent, estimate, scrape, or substitute values unless explicitly asked.
 - Store user-supplied inputs in data.json. Preserve model names and values exactly as supplied.
 - Exponents live in data.json and can be positive fractional values.
