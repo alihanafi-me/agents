@@ -312,6 +312,21 @@
       "name": "deepseek v4.1 flash 1017 max",
       "intelligence": 33,
       "cost_per_task": 0.6
+    },
+    {
+      "name": "mimo v2.6 flash",
+      "intelligence": 27,
+      "cost_per_task": 0.13
+    },
+    {
+      "name": "deepseek v4.1 flash 1017 high",
+      "intelligence": 29,
+      "cost_per_task": 0.46
+    },
+    {
+      "name": "deepseek v4.1 flash 1017 non-reasoning",
+      "intelligence": 19,
+      "cost_per_task": 0.43
     }
   ]
 }
