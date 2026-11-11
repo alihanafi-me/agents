@@ -232,6 +232,86 @@
       "name": "muse ember xhigh",
       "intelligence": 34,
       "cost_per_task": 0.12
+    },
+    {
+      "name": "opus 5.5 low",
+      "intelligence": 35,
+      "cost_per_task": 0.98
+    },
+    {
+      "name": "sonnet 5.5 low",
+      "intelligence": 26,
+      "cost_per_task": 0.51
+    },
+    {
+      "name": "fable 5.1 low",
+      "intelligence": 39,
+      "cost_per_task": 4.47
+    },
+    {
+      "name": "fable 5.2 low",
+      "intelligence": 54,
+      "cost_per_task": 3.1
+    },
+    {
+      "name": "haiku 5.5 low",
+      "intelligence": 19,
+      "cost_per_task": 0.04
+    },
+    {
+      "name": "gpt 6 astra low",
+      "intelligence": 43,
+      "cost_per_task": 1.42
+    },
+    {
+      "name": "gpt 6.1 sol low",
+      "intelligence": 35,
+      "cost_per_task": 0.16
+    },
+    {
+      "name": "gpt 6.1 terra low",
+      "intelligence": 29,
+      "cost_per_task": 0.07
+    },
+    {
+      "name": "gpt 6 luna low",
+      "intelligence": 10,
+      "cost_per_task": 0.01
+    },
+    {
+      "name": "gemini 4 carbon low",
+      "intelligence": 54,
+      "cost_per_task": 7.19
+    },
+    {
+      "name": "grok 4.7 high",
+      "intelligence": 35,
+      "cost_per_task": 6.18
+    },
+    {
+      "name": "grok 4.7 low",
+      "intelligence": 31,
+      "cost_per_task": 2.92
+    },
+    {
+      "name": "qwen 3.8 27b xhigh",
+      "intelligence": 20,
+      "cost_per_task": 3.53
+    },
+    {
+      "name": "qwen 3.8 27b medium",
+      "intelligence": 17,
+      "cost_per_task": 2.16
+    },
+    {
+      "name": "qwen 3.8 27b low",
+      "intelligence": 16,
+      "cost_per_task": 1.91
+    },
+    {
+      "name": "deepseek v4.1 flash 1017 max",
+      "intelligence": 33,
+      "cost_per_task": 0.6
     }
   ]
 }
