@@ -60,9 +60,11 @@ def generate(data):
     source = data.get("source")
     snapshot_note = (
         f"Data snapshot: Artificial Analysis Intelligence Index **v{cell(source['intelligence_index_version'])}**, "
-        f"verified on **{cell(source['verified_on'])}**.\n\n"
+        f"full snapshot last verified on **{cell(source['verified_on'])}**.\n\n"
         if source else ""
     )
+    if source and source.get("updated_on"):
+        snapshot_note += f"Latest model additions or value updates: **{cell(source['updated_on'])}**.\n\n"
 
     sections = ["""# AI Agent Rankings
 
@@ -149,7 +151,7 @@ Cost per task must be positive. Exponents must be positive and may be fractional
 Requires Python 3.10 or later, with no external packages.
 
 1. Check each exact model variant on Artificial Analysis and use the same Intelligence Index version for all entries. Record the displayed Intelligence and Cost per task in USD; do not substitute token pricing for Cost per task.
-2. Edit the `models` array in `data.json`. Each entry contains `name` (text), `intelligence` (a nonnegative number), and `cost_per_task` (a positive number). Update `source.intelligence_index_version` and `source.verified_on` (YYYY-MM-DD) after verifying the complete snapshot.
+2. Edit the `models` array in `data.json`. Each entry contains `name` (text), `intelligence` (a nonnegative number), and `cost_per_task` (a positive number). Set `source.updated_on` (YYYY-MM-DD) when adding models or updating values. Update `source.intelligence_index_version` and `source.verified_on` after verifying the complete snapshot.
 3. Adjust `exponents.light` and `exponents.heavy` as needed. Their defaults are 2 and 10. Heavy-task scores are additionally divided by one billion.
 4. Regenerate README.md, then inspect both tables:
 

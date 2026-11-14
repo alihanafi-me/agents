@@ -1,7 +1,8 @@
 {
   "source": {
     "intelligence_index_version": "5.0.1",
-    "verified_on": "2026-11-11"
+    "verified_on": "2026-11-11",
+    "updated_on": "2026-11-14"
   },
   "exponents": {
     "light": 2,
@@ -41,7 +42,7 @@
     {
       "name": "gemini 4 argon high",
       "intelligence": 50,
-      "cost_per_task": 9.95
+      "cost_per_task": 4.97
     },
     {
       "name": "muse wonder max",
@@ -322,6 +323,31 @@
       "name": "deepseek v4.1 flash 1017 high",
       "intelligence": 29,
       "cost_per_task": 0.46
+    },
+    {
+      "name": "gemini 4 hydrogen xhigh",
+      "intelligence": 54,
+      "cost_per_task": 3.16
+    },
+    {
+      "name": "gemini 4 hydrogen high",
+      "intelligence": 51,
+      "cost_per_task": 1.87
+    },
+    {
+      "name": "gemini 4 hydrogen medium",
+      "intelligence": 41,
+      "cost_per_task": 0.8
+    },
+    {
+      "name": "gemini 4 hydrogen low",
+      "intelligence": 27,
+      "cost_per_task": 0.29
+    },
+    {
+      "name": "gemini 4 argon medium",
+      "intelligence": 48,
+      "cost_per_task": 4.31
     }
   ]
 }
