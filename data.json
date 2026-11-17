@@ -1,8 +1,8 @@
 {
   "source": {
     "intelligence_index_version": "5.0.1",
-    "verified_on": "2026-11-11",
-    "updated_on": "2026-11-14"
+    "verified_on": "2026-11-17",
+    "updated_on": "2026-11-17"
   },
   "exponents": {
     "light": 2,
@@ -177,12 +177,12 @@
     {
       "name": "gemini 4 carbon medium",
       "intelligence": 58,
-      "cost_per_task": 6.59
+      "cost_per_task": 4.68
     },
     {
       "name": "gemini 4 carbon high",
       "intelligence": 60,
-      "cost_per_task": 7.76
+      "cost_per_task": 5.48
     },
     {
       "name": "opus 5.5 xhigh",
@@ -282,7 +282,7 @@
     {
       "name": "gemini 4 carbon low",
       "intelligence": 54,
-      "cost_per_task": 7.19
+      "cost_per_task": 5.22
     },
     {
       "name": "grok 4.7 high",
@@ -348,6 +348,11 @@
       "name": "gemini 4 argon medium",
       "intelligence": 48,
       "cost_per_task": 4.31
+    },
+    {
+      "name": "qwen 4 max",
+      "intelligence": 43,
+      "cost_per_task": 3.27
     }
   ]
 }
