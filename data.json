@@ -1,8 +1,8 @@
 {
   "source": {
     "intelligence_index_version": "5.0.1",
-    "verified_on": "2026-11-17",
-    "updated_on": "2026-11-17"
+    "verified_on": "2026-11-18",
+    "updated_on": "2026-11-18"
   },
   "exponents": {
     "light": 2,
@@ -15,22 +15,22 @@
       "cost_per_task": 3.68
     },
     {
-      "name": "opus 5.5 max",
+      "name": "claude opus 5.5 max",
       "intelligence": 59,
       "cost_per_task": 10.04
     },
     {
-      "name": "sonnet 5.5 max",
+      "name": "claude sonnet 5.5 max",
       "intelligence": 55,
       "cost_per_task": 10.02
     },
     {
-      "name": "opus 5.5 high",
+      "name": "claude opus 5.5 high",
       "intelligence": 52,
       "cost_per_task": 3.46
     },
     {
-      "name": "fable 5.1 max",
+      "name": "claude fable 5.1 max",
       "intelligence": 49,
       "cost_per_task": 12.99
     },
@@ -60,12 +60,12 @@
       "cost_per_task": 1.27
     },
     {
-      "name": "opus 5.5 medium",
+      "name": "claude opus 5.5 medium",
       "intelligence": 48,
       "cost_per_task": 2.45
     },
     {
-      "name": "fable 5.1 high",
+      "name": "claude fable 5.1 high",
       "intelligence": 47,
       "cost_per_task": 7.54
     },
@@ -85,7 +85,7 @@
       "cost_per_task": 2.73
     },
     {
-      "name": "fable 5.1 medium",
+      "name": "claude fable 5.1 medium",
       "intelligence": 43,
       "cost_per_task": 5.56
     },
@@ -95,7 +95,7 @@
       "cost_per_task": 0.36
     },
     {
-      "name": "sonnet 5.5 high",
+      "name": "claude sonnet 5.5 high",
       "intelligence": 42,
       "cost_per_task": 1.64
     },
@@ -105,12 +105,12 @@
       "cost_per_task": 7.77
     },
     {
-      "name": "haiku 5.5 max",
+      "name": "claude haiku 5.5 max",
       "intelligence": 36,
       "cost_per_task": 0.41
     },
     {
-      "name": "sonnet 5.5 medium",
+      "name": "claude sonnet 5.5 medium",
       "intelligence": 31,
       "cost_per_task": 0.78
     },
@@ -120,12 +120,12 @@
       "cost_per_task": 0.15
     },
     {
-      "name": "haiku 5.5 high",
+      "name": "claude haiku 5.5 high",
       "intelligence": 30,
       "cost_per_task": 0.16
     },
     {
-      "name": "haiku 5.5 medium",
+      "name": "claude haiku 5.5 medium",
       "intelligence": 25,
       "cost_per_task": 0.09
     },
@@ -155,17 +155,17 @@
       "cost_per_task": 0.96
     },
     {
-      "name": "fable 5.2 medium",
+      "name": "claude fable 5.2 medium",
       "intelligence": 56,
       "cost_per_task": 3.8
     },
     {
-      "name": "fable 5.2 high",
+      "name": "claude fable 5.2 high",
       "intelligence": 62,
       "cost_per_task": 9.08
     },
     {
-      "name": "fable 5.2 max",
+      "name": "claude fable 5.2 max",
       "intelligence": 65,
       "cost_per_task": 26.54
     },
@@ -185,27 +185,27 @@
       "cost_per_task": 5.48
     },
     {
-      "name": "opus 5.5 xhigh",
+      "name": "claude opus 5.5 xhigh",
       "intelligence": 57,
       "cost_per_task": 6.05
     },
     {
-      "name": "sonnet 5.5 xhigh",
+      "name": "claude sonnet 5.5 xhigh",
       "intelligence": 50,
       "cost_per_task": 4.09
     },
     {
-      "name": "fable 5.1 xhigh",
+      "name": "claude fable 5.1 xhigh",
       "intelligence": 50,
       "cost_per_task": 10.85
     },
     {
-      "name": "fable 5.2 xhigh",
+      "name": "claude fable 5.2 xhigh",
       "intelligence": 62,
       "cost_per_task": 14.83
     },
     {
-      "name": "haiku 5.5 xhigh",
+      "name": "claude haiku 5.5 xhigh",
       "intelligence": 35,
       "cost_per_task": 0.25
     },
@@ -235,27 +235,27 @@
       "cost_per_task": 0.12
     },
     {
-      "name": "opus 5.5 low",
+      "name": "claude opus 5.5 low",
       "intelligence": 35,
       "cost_per_task": 0.98
     },
     {
-      "name": "sonnet 5.5 low",
+      "name": "claude sonnet 5.5 low",
       "intelligence": 26,
       "cost_per_task": 0.51
     },
     {
-      "name": "fable 5.1 low",
+      "name": "claude fable 5.1 low",
       "intelligence": 39,
       "cost_per_task": 4.47
     },
     {
-      "name": "fable 5.2 low",
+      "name": "claude fable 5.2 low",
       "intelligence": 54,
       "cost_per_task": 3.1
     },
     {
-      "name": "haiku 5.5 low",
+      "name": "claude haiku 5.5 low",
       "intelligence": 19,
       "cost_per_task": 0.04
     },
@@ -353,6 +353,56 @@
       "name": "qwen 4 max",
       "intelligence": 43,
       "cost_per_task": 3.27
+    },
+    {
+      "name": "gpt 6.2 sol low",
+      "intelligence": 41,
+      "cost_per_task": 0.18
+    },
+    {
+      "name": "gpt 6.2 sol medium",
+      "intelligence": 53,
+      "cost_per_task": 0.41
+    },
+    {
+      "name": "gpt 6.2 sol high",
+      "intelligence": 55,
+      "cost_per_task": 0.56
+    },
+    {
+      "name": "gpt 6.2 sol xhigh",
+      "intelligence": 56,
+      "cost_per_task": 0.65
+    },
+    {
+      "name": "gpt 6.2 sol max",
+      "intelligence": 57,
+      "cost_per_task": 1.01
+    },
+    {
+      "name": "gpt 6.2 astra low",
+      "intelligence": 46,
+      "cost_per_task": 0.66
+    },
+    {
+      "name": "gpt 6.2 astra medium",
+      "intelligence": 57,
+      "cost_per_task": 1.62
+    },
+    {
+      "name": "gpt 6.2 astra high",
+      "intelligence": 60,
+      "cost_per_task": 2.07
+    },
+    {
+      "name": "gpt 6.2 astra xhigh",
+      "intelligence": 62,
+      "cost_per_task": 2.52
+    },
+    {
+      "name": "gpt 6.2 astra max",
+      "intelligence": 62,
+      "cost_per_task": 4.0
     }
   ]
 }
