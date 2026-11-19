@@ -1,8 +1,8 @@
 {
   "source": {
     "intelligence_index_version": "5.0.1",
-    "verified_on": "2026-11-18",
-    "updated_on": "2026-11-18"
+    "verified_on": "2026-11-19",
+    "updated_on": "2026-11-19"
   },
   "exponents": {
     "light": 2,
@@ -177,12 +177,12 @@
     {
       "name": "gemini 4 carbon medium",
       "intelligence": 58,
-      "cost_per_task": 4.68
+      "cost_per_task": 6.59
     },
     {
       "name": "gemini 4 carbon high",
       "intelligence": 60,
-      "cost_per_task": 5.48
+      "cost_per_task": 7.76
     },
     {
       "name": "claude opus 5.5 xhigh",
@@ -282,7 +282,7 @@
     {
       "name": "gemini 4 carbon low",
       "intelligence": 54,
-      "cost_per_task": 5.22
+      "cost_per_task": 7.19
     },
     {
       "name": "grok 4.7 high",
@@ -403,6 +403,26 @@
       "name": "gpt 6.2 astra max",
       "intelligence": 62,
       "cost_per_task": 4.0
+    },
+    {
+      "name": "gemini 4 neon xhigh",
+      "intelligence": 61,
+      "cost_per_task": 6.44
+    },
+    {
+      "name": "gemini 4 neon high",
+      "intelligence": 60,
+      "cost_per_task": 3.74
+    },
+    {
+      "name": "gemini 4 neon medium",
+      "intelligence": 55,
+      "cost_per_task": 1.9
+    },
+    {
+      "name": "gemini 4 neon low",
+      "intelligence": 44,
+      "cost_per_task": 0.75
     }
   ]
 }
